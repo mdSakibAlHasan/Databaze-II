@@ -14,6 +14,10 @@ import java.util.stream.IntStream;
 public class ReadImage {
     static final int numberTesting = 55,numberLearning = 500;
     static final double T=0.4;
+<<<<<<< HEAD
+=======
+    static final double seed_value=6;
+>>>>>>> 8259717f0389362d2bb21384a9a21c21a3726c7f
     String maskFolderName = "/home/sakib/Downloads/ibtd/Mask";
     String nonMaskFolderName = "/home/sakib/Downloads/ibtd";
     List<Integer> list=new ArrayList<Integer>();
@@ -34,7 +38,11 @@ public class ReadImage {
     }
 
     private void readColorOfImage() throws IOException {
+<<<<<<< HEAD
         Collections.shuffle(list);
+=======
+        Collections.shuffle(list, new Random(seed_value));
+>>>>>>> 8259717f0389362d2bb21384a9a21c21a3726c7f
 
         screenColor = new int[256][256][256];
         nonScreenColor = new int[256][256][256];
@@ -131,6 +139,13 @@ public class ReadImage {
 
     int[][] confutionMatrix= new int[2][2];
     private double createConfutionMatrix() throws IOException {
+<<<<<<< HEAD
+=======
+        confutionMatrix[0][0] = 0;
+        confutionMatrix[1][1] = 0;
+        confutionMatrix[0][1] = 0;
+        confutionMatrix[1][0] = 0;
+>>>>>>> 8259717f0389362d2bb21384a9a21c21a3726c7f
         for(int i=numberLearning;i<=554;i++) {
             String maskPathName = maskFolderName + "/" + maskImageList[list.get(i)];
             String nonMaskPathName = nonMaskFolderName + "/" + nonMaskImageList[list.get(i)];
@@ -150,20 +165,34 @@ public class ReadImage {
                         case 1:
                             switch (isScreenInTesting(nonMaskPixel)){
                                 case 1:
+<<<<<<< HEAD
                                     confutionMatrix[1][1]++;
                                     break;
                                 case 0:
                                     confutionMatrix[1][0]++;
+=======
+                                    confutionMatrix[1][1]++;            //true positive
+                                    break;
+                                case 0:
+                                    confutionMatrix[1][0]++;            //true negative
+>>>>>>> 8259717f0389362d2bb21384a9a21c21a3726c7f
                                     break;
                             }
                             break;
                         case 0:
                             switch (isScreenInTesting(nonMaskPixel)){
                                 case 1:
+<<<<<<< HEAD
                                     confutionMatrix[0][1]++;
                                     break;
                                 case 0:
                                     confutionMatrix[0][0]++;
+=======
+                                    confutionMatrix[0][1]++;            //false positive
+                                    break;
+                                case 0:
+                                    confutionMatrix[0][0]++;            //false negative
+>>>>>>> 8259717f0389362d2bb21384a9a21c21a3726c7f
                                     break;
                             }
                              break;

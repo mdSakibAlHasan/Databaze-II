@@ -1,5 +1,9 @@
 def apriori(data, min_support,length):
+<<<<<<< HEAD
     # First, generate a list of all unique items in the data
+=======
+    # gather data in a set
+>>>>>>> 8259717f0389362d2bb21384a9a21c21a3726c7f
     items = set()
     for transaction in data:
         for item in transaction:
@@ -10,11 +14,19 @@ def apriori(data, min_support,length):
     for item in items:
         item_sets.append(frozenset([item]))
 
+<<<<<<< HEAD
     # Initialize a dictionary to store the support counts for each item set
     support_counts = {}
     frequent_item_sets = []
 
     # Iterate through each item set and count the support for each one
+=======
+    
+    support_counts = {}
+    frequent_item_sets = []
+
+    # support count of each set
+>>>>>>> 8259717f0389362d2bb21384a9a21c21a3726c7f
     for item_set in item_sets:
         support_counts[item_set] = 0
         for transaction in data:
@@ -91,7 +103,11 @@ def find_combination():
     # ]
 
     min_support = 2
+<<<<<<< HEAD
     length = 3
+=======
+    length = 2
+>>>>>>> 8259717f0389362d2bb21384a9a21c21a3726c7f
 
 
     support_counts, frequent_item_set = apriori(book_data, min_support,length)
@@ -140,4 +156,8 @@ def find_confidence(data, min_support, str):
 
 strs = "I2 = I1 ^ I5"
 strsp = "I1 = I2 ^ I5"
+<<<<<<< HEAD
 find_confidence(book_data,min_support=2,str= strsp)
+=======
+# find_confidence(book_data,min_support=2,str= strsp)
+>>>>>>> 8259717f0389362d2bb21384a9a21c21a3726c7f
