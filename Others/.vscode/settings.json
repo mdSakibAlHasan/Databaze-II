@@ -32,5 +32,11 @@
     "**/.*/**",
     "**/.vscode",
     "**/.vscode/**"
-  ]
+  ],
+  "files.associations": {
+    "deque": "cpp",
+    "string": "cpp",
+    "vector": "cpp",
+    "iostream": "cpp"
+  }
 }
