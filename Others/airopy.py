@@ -1,9 +1,5 @@
 def apriori(data, min_support,length):
-<<<<<<< HEAD
     # First, generate a list of all unique items in the data
-=======
-    # gather data in a set
->>>>>>> 8259717f0389362d2bb21384a9a21c21a3726c7f
     items = set()
     for transaction in data:
         for item in transaction:
@@ -14,19 +10,11 @@ def apriori(data, min_support,length):
     for item in items:
         item_sets.append(frozenset([item]))
 
-<<<<<<< HEAD
     # Initialize a dictionary to store the support counts for each item set
     support_counts = {}
     frequent_item_sets = []
 
     # Iterate through each item set and count the support for each one
-=======
-    
-    support_counts = {}
-    frequent_item_sets = []
-
-    # support count of each set
->>>>>>> 8259717f0389362d2bb21384a9a21c21a3726c7f
     for item_set in item_sets:
         support_counts[item_set] = 0
         for transaction in data:
@@ -69,6 +57,7 @@ def apriori(data, min_support,length):
         for item_set, count in support_counts.items():
             if count >= min_support:
                 frequent_item_sets.append(item_set)
+                #print(item_set," = ",count)
 
         
         if k == length:
@@ -91,26 +80,47 @@ book_data = [
     ['I1', 'I2', 'I3']
 ]
 
+transactions = [
+ ["MILK","BREAD","BISCUIT"],
+["BREAD","MILK","BISCUIT","CORNFLAKES"],
+["BREAD","TEA","BOURNVITA"],
+["JAM","MAGGI","BREAD","MILK"],
+["MAGGI","TEA","BISCUIT"],
+["BREAD","TEA","BOURNVITA"],
+["MAGGI","TEA","CORNFLAKES"],
+["MAGGI","BREAD","TEA","BISCUIT"],
+["JAM","MAGGI","BREAD","TEA"],
+["BREAD","MILK"],
+["COFFEE","COCK","BISCUIT","CORNFLAKES"],
+["COFFEE","COCK","BISCUIT","CORNFLAKES"],
+["COFFEE","SUGER","BOURNVITA"],
+["BREAD","COFFEE","COCK"],
+["BREAD","SUGER","BISCUIT"],
+["COFFEE","SUGER","CORNFLAKES"],
+["BREAD","SUGER","BOURNVITA"],
+["BREAD","COFFEE","SUGER"],
+["BREAD","COFFEE","SUGER"],
+["TEA","MILK","COFFEE","CORNFLAKES"]
+]
+
+
+
+data = [
+    ['bread', 'milk'],
+    ['bread', 'diaper', 'beer', 'eggs'],
+    ['milk', 'diaper', 'beer', 'cola'],
+    ['bread', 'milk', 'diaper', 'beer'],
+    ['bread', 'milk', 'diaper', 'cola']
+]
 
 def find_combination():
 
-    # data = [
-    #     ['bread', 'milk'],
-    #     ['bread', 'diaper', 'beer', 'eggs'],
-    #     ['milk', 'diaper', 'beer', 'cola'],
-    #     ['bread', 'milk', 'diaper', 'beer'],
-    #     ['bread', 'milk', 'diaper', 'cola']
-    # ]
 
     min_support = 2
-<<<<<<< HEAD
-    length = 3
-=======
-    length = 2
->>>>>>> 8259717f0389362d2bb21384a9a21c21a3726c7f
+    length = 5
 
 
-    support_counts, frequent_item_set = apriori(book_data, min_support,length)
+    support_counts, frequent_item_set = apriori(transactions, min_support,length)
     if not frequent_item_set:
         print("No combination found")
 
@@ -154,10 +164,6 @@ def find_confidence(data, min_support, str):
 
     
 
-strs = "I2 = I1 ^ I5"
-strsp = "I1 = I2 ^ I5"
-<<<<<<< HEAD
-find_confidence(book_data,min_support=2,str= strsp)
-=======
+# strs = "I2 = I1 ^ I5"
+# strsp = "I1 = I2 ^ I5"
 # find_confidence(book_data,min_support=2,str= strsp)
->>>>>>> 8259717f0389362d2bb21384a9a21c21a3726c7f
