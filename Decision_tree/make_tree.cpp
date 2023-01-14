@@ -66,6 +66,18 @@ void sortAttribute(node *row_information, int column)
     sort(row + row_information->start_index, row + row_information->end_index, compareAttribute);
 }
 
+int getIndex(int start, int end,int index,int value)
+{
+    while (start <= end)
+    {
+        if (row[start].attribute_info[index] > value)
+            return start - 1;
+        start++;
+    }
+
+    return start;
+}
+
 int calculate_gain_value(node *row_information)
 {
     set<int> attribute_value;
@@ -91,6 +103,8 @@ int calculate_gain_value(node *row_information)
             for (auto &num2 : class_value)
             {
                 t1 = (find_probability_value(num1, num2, i, row_information) / total_row);
+                if (t1 == 0.0)
+                    continue;
                 t2 = (find_class_probability(num1, i, row_information) / total_row) * (find_attribute_probability(num2, row_information) / total_row);
                 t3 = log2(t1 / t2);
 
@@ -109,18 +123,20 @@ int calculate_gain_value(node *row_information)
 
     if (heighest_gain_value == 0)
     {
-        high_attribute = 0;
-        high_value = row[row_information->start_index].attribute_info[0];
+        high_attribute = 3;
+        high_value = row[row_information->start_index].attribute_info[3];
     }
 
     row_information->attribute_number = high_attribute;
     row_information->atrribute_value = high_value;
     sortAttribute(row_information, high_attribute);
-    for (int p = row_information->start_index; p <= row_information->end_index; p++)
+    for (int k = row_information->start_index; k <= row_information->end_index; k++)
     {
-        if (row[p].attribute_info[high_attribute] > high_value)
-            return (p - 1);
+        if (row[k].attribute_info[high_attribute] > high_value)
+            return (k - 1);
     }
+
+    //return getIndex(row_information->start_index, row_information->end_index,high_attribute,);
 
     return row_information->start_index;
 }
@@ -152,7 +168,7 @@ void addChildren(node *children, int start_index, int end_index)
     {
         cout << start_index << "-" << end_index << " atr " << children->attribute_number << "-" << children->atrribute_value << " ** " << row[start_index].class_name << row[end_index].class_name << endl;
         if (start_index != end_index)
-            cout << (end_index - start_index) << " ++++ ";
+            cout << (end_index - start_index) << " ++++ " << endl;
         return;
     }
 
