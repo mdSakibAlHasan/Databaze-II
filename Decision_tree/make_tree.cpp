@@ -3,7 +3,7 @@ using namespace std;
 
 #define MAX 625
 #define COL 4
-
+int counter2 = 0;
 struct row_info
 {
     char class_name;
@@ -15,6 +15,7 @@ struct node
     int attribute_number, atrribute_value;
     int start_index, end_index;
     char class_name;
+    bool leaf = false;
     struct node *leftChild;
     struct node *rightChild;
     struct node *parents;
@@ -66,18 +67,6 @@ void sortAttribute(node *row_information, int column)
     sort(row + row_information->start_index, row + row_information->end_index, compareAttribute);
 }
 
-int getIndex(int start, int end,int index,int value)
-{
-    while (start <= end)
-    {
-        if (row[start].attribute_info[index] > value)
-            return start - 1;
-        start++;
-    }
-
-    return start;
-}
-
 int calculate_gain_value(node *row_information)
 {
     set<int> attribute_value;
@@ -103,15 +92,12 @@ int calculate_gain_value(node *row_information)
             for (auto &num2 : class_value)
             {
                 t1 = (find_probability_value(num1, num2, i, row_information) / total_row);
-                if (t1 == 0.0)
-                    continue;
                 t2 = (find_class_probability(num1, i, row_information) / total_row) * (find_attribute_probability(num2, row_information) / total_row);
                 t3 = log2(t1 / t2);
-
                 gain_value += (t1 * t3);
             }
             // cout << gain_value << "---" << num1 << endl;
-            if (gain_value >= heighest_gain_value)
+            if (gain_value > heighest_gain_value)
             {
                 heighest_gain_value = gain_value;
                 high_attribute = i;
@@ -123,22 +109,22 @@ int calculate_gain_value(node *row_information)
 
     if (heighest_gain_value == 0)
     {
-        high_attribute = 3;
-        high_value = row[row_information->start_index].attribute_info[3];
+        // cout << "\n t " << t1 << " " << t2 << " " << t3 << endl;
+        counter2++;
+        high_attribute = 0;
+        high_value = row[row_information->start_index].attribute_info[0];
     }
 
     row_information->attribute_number = high_attribute;
     row_information->atrribute_value = high_value;
     sortAttribute(row_information, high_attribute);
-    for (int k = row_information->start_index; k <= row_information->end_index; k++)
+    for (int p = row_information->start_index; p <= row_information->end_index; p++)
     {
-        if (row[k].attribute_info[high_attribute] > high_value)
-            return (k - 1);
+        if (row[p].attribute_info[high_attribute] > high_value)
+            return (p - 1);
     }
 
-    //return getIndex(row_information->start_index, row_information->end_index,high_attribute,);
-
-    return row_information->start_index;
+    return (row_information->end_index - 1);
 }
 
 bool checkSameClass(int start_index, int end_index)
@@ -158,7 +144,7 @@ bool checkSameClass(int start_index, int end_index)
         return false;
     }
 }
-
+int counter = 0;
 void addChildren(node *children, int start_index, int end_index)
 {
     children->start_index = start_index;
@@ -166,14 +152,18 @@ void addChildren(node *children, int start_index, int end_index)
 
     if (checkSameClass(start_index, end_index) || start_index >= end_index)
     {
-        cout << start_index << "-" << end_index << " atr " << children->attribute_number << "-" << children->atrribute_value << " ** " << row[start_index].class_name << row[end_index].class_name << endl;
+        children->leaf = true;
+        cout << start_index << "-" << end_index << " atr " << children->attribute_number << "-" << children->leaf << " ** " << row[start_index].class_name << row[end_index].class_name << endl;
         if (start_index != end_index)
-            cout << (end_index - start_index) << " ++++ " << endl;
+        {
+            counter += (end_index - start_index);
+            cout << (end_index - start_index) << " ++++ ";
+        }
         return;
     }
 
-    int last_index;
-    last_index = calculate_gain_value(children);
+    children->leaf = false;
+    int last_index = calculate_gain_value(children);
     // cout << column_value << " " << root->attribute_number << " * " << root->atrribute_value << endl;
 
     struct node *leftChild = (struct node *)malloc(sizeof(struct node));
@@ -186,11 +176,12 @@ void addChildren(node *children, int start_index, int end_index)
     addChildren(leftChild, last_index + 1, children->end_index);
 }
 
-void create_tree()
+struct node create_tree()
 {
     struct node *root = (struct node *)malloc(sizeof(struct node));
     root->start_index = 0;
     root->end_index = MAX - 1;
+    root->leaf = false;
     int last_index;
     last_index = calculate_gain_value(root);
     // cout << column_value << " " << root->attribute_number << " * " << root->atrribute_value << endl;
@@ -204,6 +195,8 @@ void create_tree()
     addChildren(leftChild, 0, last_index);
     addChildren(leftChild, last_index + 1, MAX - 1);
     // cout << column_number << " " << column_value << endl;
+
+    return *root;
 }
 
 void load_data()
@@ -221,8 +214,48 @@ void load_data()
     }
 }
 
+char find_decision(node *level_data, row_info test_data)
+{
+    if (level_data->leaf)
+    {
+        return level_data->class_name;
+    }
+    else
+    {
+
+        if (test_data.attribute_info[level_data->attribute_number] > level_data->atrribute_value)
+        {
+            return find_decision(level_data->rightChild, test_data);
+        }
+        else
+        {
+            return find_decision(level_data->leftChild, test_data);
+        }
+    }
+}
+
+void testing(node *root, row_info test_data)
+{
+    char ch = find_decision(root, test_data);
+    if (ch == test_data.class_name)
+    {
+        cout << "Match" << endl;
+    }
+    else
+    {
+        cout << "Not Match" << endl;
+    }
+}
+
 int main()
 {
     load_data();
-    create_tree();
+    struct node root = create_tree();
+
+    cout << "Total: " << counter << " other: " << counter2 << endl;
+
+    for (int i = 100; i < 120; i++)
+    {
+        testing(&root, row[i]);
+    }
 }
