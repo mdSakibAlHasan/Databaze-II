@@ -1,19 +1,16 @@
 def apriori(data, min_support, length):
-   
+
     items = set()
     for transaction in data:
         for item in transaction:
             items.add(item)
 
-
     item_sets = []
     for item in items:
         item_sets.append(frozenset([item]))
 
-   
     support_counts = {}
     frequent_item_sets = []
-
 
     for item_set in item_sets:
         support_counts[item_set] = 0
@@ -23,8 +20,6 @@ def apriori(data, min_support, length):
 
     if length == 1:
         return support_counts, frequent_item_sets
-
-   
 
     for item_set, count in support_counts.items():
         if count >= min_support:
@@ -41,10 +36,8 @@ def apriori(data, min_support, length):
                     if len(item_set) == k:
                         item_sets.append(item_set)
 
-       
         support_counts = {}
 
-        
         for item_set in item_sets:
             support_counts[item_set] = 0
             for transaction in data:
@@ -55,7 +48,7 @@ def apriori(data, min_support, length):
         for item_set, count in support_counts.items():
             if count >= min_support:
                 frequent_item_sets.append(item_set)
-               
+
         if k == length:
             return support_counts, frequent_item_sets
 
@@ -125,7 +118,7 @@ def find_combination():
             print(keys, " - ", count)
 
 
-find_combination()
+# find_combination()
 
 
 def find_confidence(data, min_support, str):
@@ -159,6 +152,6 @@ def find_confidence(data, min_support, str):
         print("Confidence level not found because of zero division")
 
 
-# strs = "I2 = I1 ^ I5"
+strs = "I2 = I1 ^ I5"
 # strsp = "I1 = I2 ^ I5"
-# find_confidence(book_data,min_support=2,str= strsp)
+find_confidence(book_data, min_support=2, str=strs)

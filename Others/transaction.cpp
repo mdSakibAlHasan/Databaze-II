@@ -6,7 +6,7 @@ using namespace std;
 #define visited 2
 #define finished 3
 
-int n; /*Number of vertices in the graph */
+int n=3; /*Number of vertices in the graph */
 int adj[MAX][MAX];
 void create_graph();
 
@@ -77,7 +77,7 @@ void DFS(int v)
                 DFS(i);
             else if (state[i] == visited)
             {
-                printf("\nGraph is cyclic\n");
+                printf("\nNot serializable\n");
                 exit(1);
             }
         }
@@ -99,7 +99,7 @@ void DF_Traversal()
         if (state[v] == initial)
             DFS(v);
     }
-    printf("\nGraph is Acyclic\n");
+    printf("\nSerializable\n");
 }
 
 void make_graph()
@@ -126,8 +126,8 @@ void make_graph()
 
 int main()
 {
-    char input[] = "r2(x) r3(y) w3(x) r1(y) w2(x) w1(y) w1(x) ";
-    n = 3;
+    char input[] = "r1(x) r3(y) w3(x) r1(y) w1(x) ";
+    //n = 3;
     split_input(input);
     make_graph();
     DF_Traversal();
