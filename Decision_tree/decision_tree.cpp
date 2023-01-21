@@ -2,22 +2,21 @@
 #include <vector>
 using namespace std;
 
-#define MAX 625
+#define MAX 600
 #define COL 4
-int counter2 = 0;
 struct row_info
 {
     char class_name;
     int attribute_info[4];
 };
-row_info values[MAX];
+row_info values[626];
 
 struct node
 {
-    int attribute_number, child_number;
+    int attribute_number, child_number, internal_class_name;
     char class_name;
     bool leaf = false;
-    struct node **child;
+    node **child;
     vector<row_info> row;
 };
 
@@ -115,17 +114,6 @@ void calculate_gain_value(node *row_information)
     }
 
     sortAttribute(row_information, row_information->attribute_number);
-    // int return_value;
-    // for (int p = 0; p < row_information->row.size(); p++)
-    // {
-    //     if (row_information->row[p].attribute_info[high_attribute] > high_value)
-    //     {
-    //         return_value = p - 1;
-    //         break;
-    //     }
-    // }
-
-    // return return_value;
 }
 
 bool checkSameClass(node *children)
@@ -145,16 +133,17 @@ bool checkSameClass(node *children)
         return false;
     }
 }
-int counter = 0;
+int counter2 = 0;
 void addChildren(node *children)
 {
     if (checkSameClass(children))
     {
         children->leaf = true;
-        counter++;
+        children->class_name = children->row[0].class_name;
         cout << children->row[0].class_name;
-        cout << " " << children->row.size() << " ++++    " << counter << " " << endl;
-
+        cout << " " << children->row.size() << " ++++    " << endl;
+        if (children->row.size() != 1)
+            counter2 += children->row.size();
         return;
     }
 
@@ -163,7 +152,8 @@ void addChildren(node *children)
 
     children->child = new node *[children->child_number];
     node *new_child = new node();
-    children->child[0] = children;
+    new_child->internal_class_name = children->row[0].attribute_info[children->attribute_number];
+    children->child[0] = new_child;
     int child_index = 0, first_value = children->row[0].attribute_info[children->attribute_number];
     for (int i = 0; i < children->row.size(); i++)
     {
@@ -175,15 +165,17 @@ void addChildren(node *children)
         {
             addChildren(new_child);
             new_child = new node();
+            new_child->internal_class_name = children->row[i].attribute_info[children->attribute_number];
             children->child[++child_index] = new_child;
             new_child->row.push_back(children->row[i]);
             first_value = children->row[i].attribute_info[children->attribute_number];
         }
     }
     addChildren(new_child);
+    children->row.clear(); // clear parents data only child data are remaining
 }
 
-struct node create_tree()
+struct node *create_tree()
 {
     node *root = new node();
     root->leaf = false;
@@ -193,12 +185,10 @@ struct node create_tree()
     }
     calculate_gain_value(root);
 
-    // for(int i=0;i<MAX;i++){
-    //     cout<<root->row[i].class_name<<" "<<root->row[i].attribute_info[root->attribute_number]<<endl;
-    // }
     root->child = new node *[root->child_number];
     node *children = new node();
     root->child[0] = children;
+    children->internal_class_name = root->row[0].attribute_info[root->attribute_number];
     int child_index = 0, first_value = root->row[0].attribute_info[root->attribute_number];
     for (int i = 0; i < root->row.size(); i++)
     {
@@ -211,12 +201,18 @@ struct node create_tree()
             addChildren(children);
             children = new node();
             root->child[++child_index] = children;
+            children->internal_class_name = root->row[i].attribute_info[root->attribute_number];
             children->row.push_back(root->row[i]);
             first_value = root->row[i].attribute_info[root->attribute_number];
         }
     }
     addChildren(children);
-    return *root;
+    root->row.clear();
+    cout << endl
+         << "P: " << root << " ";
+    for (int i = 0; i < root->child_number; i++)
+        cout << root->child[i] << " ";
+    return root;
 }
 
 void load_data()
@@ -224,7 +220,7 @@ void load_data()
     char temp;
     int a, b, c;
     ifstream myFile("balance-scale.data");
-    for (int i = 0; i < MAX; i++)
+    for (int i = 0; i < 625; i++)
     {
         myFile >> values[i].class_name;
         for (int k = 0; k < 4; k++)
@@ -236,28 +232,35 @@ void load_data()
 
 char find_decision(node *level_data, row_info test_data)
 {
+    char ch;
+    int i=0;
     if (level_data->leaf)
     {
-        return level_data->class_name;
+        ch = level_data->class_name;
     }
     else
     {
-
-        // if (test_data.attribute_info[level_data->attribute_number] > level_data->atrribute_value)
-        // {
-        //     return find_decision(level_data->rightChild, test_data);
-        // }
-        // else
-        // {
-        //     return find_decision(level_data->leftChild, test_data);
-        // }
+        for (i = 0; i < level_data->child_number; i++)
+        {
+            if (level_data->child[i]->internal_class_name == test_data.attribute_info[level_data->attribute_number])
+            {
+                ch = find_decision(level_data->child[i], test_data);
+                break;
+            }
+        }
+        if(i==level_data->child_number)
+            ch = find_decision(level_data->child[i-1], test_data);
     }
-    return 'a';
+    cout << "-1-";
+    
+    // find_decision(level_data->child[0], test_data);
+    return ch;
 }
 
 void testing(node *root, row_info test_data)
 {
     char ch = find_decision(root, test_data);
+    cout << ch << " ";
     if (ch == test_data.class_name)
     {
         cout << "Match" << endl;
@@ -271,14 +274,14 @@ void testing(node *root, row_info test_data)
 int main()
 {
     load_data();
-    struct node root = create_tree();
+    node *root = create_tree();
+    cout << " root: " << root << endl;
+    cout << "Total:  " << counter2 << endl;
 
-    // cout << "Total: " << counter << " other: " << counter2 << endl;
-
-    // for (int i = 100; i < 120; i++)
-    // {
-    //     testing(&root, row[i]);
-    // }
+    for (int i = 600; i < 625; i++)
+    {
+        testing(root, values[i]);
+    }
 
     return 0;
 }
