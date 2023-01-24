@@ -13,7 +13,7 @@ row_info values[626];
 
 struct node
 {
-    int attribute_number, child_number, internal_class_name;
+    int attribute_number, child_number, internal_class_name; // Which catagory it divided of parents values
     char class_name;
     bool leaf = false;
     node **child;
@@ -140,10 +140,10 @@ void addChildren(node *children)
     {
         children->leaf = true;
         children->class_name = children->row[0].class_name;
-        cout << children->row[0].class_name;
-        cout << " " << children->row.size() << " ++++    " << endl;
-        if (children->row.size() != 1)
-            counter2 += children->row.size();
+        // cout << children->row[0].class_name;
+        // cout << " " << children->row.size() << " ++++    " << endl;
+        // if (children->row.size() != 1)
+        //     counter2 += children->row.size();
         return;
     }
 
@@ -188,7 +188,7 @@ struct node *create_tree()
     root->child = new node *[root->child_number];
     node *children = new node();
     root->child[0] = children;
-    children->internal_class_name = root->row[0].attribute_info[root->attribute_number];
+    children->internal_class_name = root->row[0].attribute_info[root->attribute_number]; // Which catagory it divided
     int child_index = 0, first_value = root->row[0].attribute_info[root->attribute_number];
     for (int i = 0; i < root->row.size(); i++)
     {
@@ -208,10 +208,10 @@ struct node *create_tree()
     }
     addChildren(children);
     root->row.clear();
-    cout << endl
-         << "P: " << root << " ";
-    for (int i = 0; i < root->child_number; i++)
-        cout << root->child[i] << " ";
+    // cout << endl
+    //      << "P: " << root << " ";
+    // for (int i = 0; i < root->child_number; i++)
+    //     cout << root->child[i] << " ";
     return root;
 }
 
@@ -233,7 +233,7 @@ void load_data()
 char find_decision(node *level_data, row_info test_data)
 {
     char ch;
-    int i=0;
+    int i = 0;
     if (level_data->leaf)
     {
         ch = level_data->class_name;
@@ -248,11 +248,11 @@ char find_decision(node *level_data, row_info test_data)
                 break;
             }
         }
-        if(i==level_data->child_number)
-            ch = find_decision(level_data->child[i-1], test_data);
+        if (i == level_data->child_number)
+            ch = find_decision(level_data->child[i - 1], test_data);
     }
     cout << "-1-";
-    
+
     // find_decision(level_data->child[0], test_data);
     return ch;
 }
@@ -271,17 +271,40 @@ void testing(node *root, row_info test_data)
     }
 }
 
+void print_tree(node *level_data, int sum)
+{
+    int i = 0;
+    if (level_data->leaf)
+    {
+        for (int k = 0; k <= sum; k++)
+            cout << "\t";
+        cout << level_data->class_name << " " << level_data->row.size() << endl;
+    }
+    else
+    {
+        for (i = 0; i < level_data->child_number; i++)
+        {
+            for (int k = 0; k <= sum; k++)
+                cout << "\t";
+            cout << sum << ". " << level_data->row.size() << endl;
+            print_tree(level_data->child[i], sum + 1);
+        }
+    }
+}
+
 int main()
 {
     load_data();
     node *root = create_tree();
-    cout << " root: " << root << endl;
-    cout << "Total:  " << counter2 << endl;
+    print_tree(root, 0);
 
-    for (int i = 600; i < 625; i++)
-    {
-        testing(root, values[i]);
-    }
+    // cout << " root: " << root << endl;
+    // cout << "Total:  " << counter2 << endl;
+
+    // for (int i = 600; i < 625; i++)
+    // {
+    //     testing(root, values[i]);
+    // }
 
     return 0;
 }
