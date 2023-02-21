@@ -140,8 +140,8 @@ void addChildren(node *children)
     {
         children->leaf = true;
         children->class_name = children->row[0].class_name;
-        cout << children->row[0].class_name;
-        cout << " " << children->row.size() << " ++++    " << endl;
+        // cout << children->row[0].class_name;
+        // cout << " " << children->row.size() << " ++++    " << endl;
         if (children->row.size() != 1)
             counter2 += children->row.size();
         return;
@@ -208,10 +208,10 @@ struct node *create_tree()
     }
     addChildren(children);
     root->row.clear();
-    cout << endl
-         << "P: " << root << " ";
-    for (int i = 0; i < root->child_number; i++)
-        cout << root->child[i] << " ";
+    // cout << endl
+    //      << "P: " << root << " ";
+    // for (int i = 0; i < root->child_number; i++)
+    //     cout << root->child[i] << " ";
     return root;
 }
 
@@ -228,12 +228,14 @@ void load_data()
             myFile >> temp >> values[i].attribute_info[k];
         }
     }
+
+    shuffle(values, values + 625, default_random_engine(12));
 }
 
 char find_decision(node *level_data, row_info test_data)
 {
     char ch;
-    int i=0;
+    int i = 0;
     if (level_data->leaf)
     {
         ch = level_data->class_name;
@@ -248,40 +250,78 @@ char find_decision(node *level_data, row_info test_data)
                 break;
             }
         }
-        if(i==level_data->child_number)
-            ch = find_decision(level_data->child[i-1], test_data);
+        if (i == level_data->child_number)
+            ch = find_decision(level_data->child[i - 1], test_data);
     }
-    cout << "-1-";
-    
+    // cout << "-1-";
+
     // find_decision(level_data->child[0], test_data);
     return ch;
 }
 
-void testing(node *root, row_info test_data)
+bool testing(node *root, row_info test_data)
 {
     char ch = find_decision(root, test_data);
-    cout << ch << " ";
+    // cout << ch << " ";
     if (ch == test_data.class_name)
     {
-        cout << "Match" << endl;
+        return true;
     }
     else
     {
-        cout << "Not Match" << endl;
+        return false;
     }
+}
+
+void print_sub_tree(node *root, string str)
+{
+    string new_str = str + "          ";
+    bool first = true;
+    int children_index = 0;
+    for (int i = 0; i < root->child_number; i++)
+    {
+        cout << root->internal_class_name << "----------";
+
+        if (root->leaf)
+        {
+            cout << endl
+                 << new_str;
+            // print_sub_tree(root->child[i],new_str);
+        }
+        else
+        {
+            print_sub_tree(root->child[i], new_str);
+        }
+    }
+    cout << endl
+         << str;
+}
+
+void print_tree(node *root)
+{
+    string str;
+    print_sub_tree(root, str);
 }
 
 int main()
 {
     load_data();
     node *root = create_tree();
-    cout << " root: " << root << endl;
-    cout << "Total:  " << counter2 << endl;
-
+    //  cout << " root: " << root << endl;
+    //  cout << "Total:  " << counter2 << endl;
+    int match = 0, disMatch = 0;
     for (int i = 600; i < 625; i++)
     {
-        testing(root, values[i]);
+        if (testing(root, values[i]))
+            match++;
+        else
+            disMatch++;
     }
+
+    double probability = (double)match / (double)(match + disMatch);
+    cout << "Probability is: " << probability*100 << endl;
+
+    // print_tree(root);
 
     return 0;
 }
