@@ -13,7 +13,7 @@ row_info values[626];
 
 struct node
 {
-    int attribute_number, child_number, internal_class_name;
+    int attribute_number, child_number, internal_class_name; // Which catagory it divided of parents values
     char class_name;
     bool leaf = false;
     node **child;
@@ -142,8 +142,8 @@ void addChildren(node *children)
         children->class_name = children->row[0].class_name;
         // cout << children->row[0].class_name;
         // cout << " " << children->row.size() << " ++++    " << endl;
-        if (children->row.size() != 1)
-            counter2 += children->row.size();
+        // if (children->row.size() != 1)
+        //     counter2 += children->row.size();
         return;
     }
 
@@ -188,7 +188,7 @@ struct node *create_tree()
     root->child = new node *[root->child_number];
     node *children = new node();
     root->child[0] = children;
-    children->internal_class_name = root->row[0].attribute_info[root->attribute_number];
+    children->internal_class_name = root->row[0].attribute_info[root->attribute_number]; // Which catagory it divided
     int child_index = 0, first_value = root->row[0].attribute_info[root->attribute_number];
     for (int i = 0; i < root->row.size(); i++)
     {
@@ -229,7 +229,7 @@ void load_data()
         }
     }
 
-    shuffle(values, values + 625, default_random_engine(12));
+    shuffle(values, values + 625, default_random_engine(1209));
 }
 
 char find_decision(node *level_data, row_info test_data)

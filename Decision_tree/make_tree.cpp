@@ -112,7 +112,7 @@ int calculate_gain_value(node *row_information)
         // cout << "\n t " << t1 << " " << t2 << " " << t3 << endl;
         counter2++;
         high_attribute = 0;
-        high_value = row[row_information->start_index].attribute_info[0];
+        high_value = row[(row_information->start_index + row_information->end_index) / 2].attribute_info[0];
     }
 
     row_information->attribute_number = high_attribute;
@@ -120,7 +120,7 @@ int calculate_gain_value(node *row_information)
     sortAttribute(row_information, high_attribute);
     for (int p = row_information->start_index; p <= row_information->end_index; p++)
     {
-        if (row[p].attribute_info[high_attribute] > high_value)
+        if (row[p].attribute_info[high_attribute] >= high_value)
             return (p - 1);
     }
 
