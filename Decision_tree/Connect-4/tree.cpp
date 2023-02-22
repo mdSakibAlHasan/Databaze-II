@@ -2,25 +2,27 @@
 #include <vector>
 using namespace std;
 
-#define MAX 600
-#define COL 4
+#define MAX 4500
+#define TOTAL 5000
+#define COL 42
 struct row_info
 {
     char class_name;
-    int attribute_info[4];
+    char attribute_info[COL];
 };
-row_info values[626];
+row_info values[TOTAL];
 
 struct node
 {
-    int attribute_number, child_number, internal_class_name; // Which catagory it divided of parents values
+    int attribute_number, child_number;
+    char internal_class_name; // Which catagory it divided of parents values
     char class_name;
     bool leaf = false;
     node **child;
     vector<row_info> row;
 };
 
-double find_attribute_probability(int num, int index, node *r)
+double find_attribute_probability(char num, int index, node *r)
 {
     int result = 0;
     for (int i = 0; i < r->row.size(); i++)
@@ -42,7 +44,7 @@ double find_class_probability(char ch, node *r)
     return (double)result;
 }
 
-double find_probability_value(int num, char ch, int index, node *r)
+double find_probability_value(char num, char ch, int index, node *r)
 {
     int result = 0;
     for (int i = 0; i < r->row.size(); i++)
@@ -64,7 +66,7 @@ void sortAttribute(node *r, int column)
 
 void calculate_gain_value(node *row_information)
 {
-    set<int> attribute_value;
+    set<char> attribute_value;
     set<char> class_value;
     double total_row = (double)(row_information->row.size()), heighest_gain_value = 0, t1, t2, t3;
     double entropy = 0, row_entropy;
@@ -218,18 +220,22 @@ struct node *create_tree()
 void load_data()
 {
     char temp;
-    int a, b, c;
-    ifstream myFile("balance-scale.data");
-    for (int i = 0; i < 625; i++)
+    string restLine;
+    ifstream myFile("connect-4.data");
+    for (int i = 0; i < TOTAL; i++)
     {
-        myFile >> values[i].class_name;
-        for (int k = 0; k < 4; k++)
+        for (int k = 0; k < COL; k++)
         {
-            myFile >> temp >> values[i].attribute_info[k];
+            myFile >> values[i].attribute_info[k] >> temp;
+            // cout << values[i].attribute_info[k] << " ";
         }
+        myFile >> values[i].class_name;
+        getline(myFile, restLine);
+
+        // cout << values[i].class_name << endl;
     }
 
-    shuffle(values, values + 625, default_random_engine(120));
+    shuffle(values, values + TOTAL-1, default_random_engine(9));
 }
 
 char find_decision(node *level_data, row_info test_data)
@@ -251,7 +257,7 @@ char find_decision(node *level_data, row_info test_data)
             }
         }
         if (i == level_data->child_number)
-            ch = find_decision(level_data->child[i - 1], test_data);
+            ch = find_decision(level_data->child[0], test_data);
     }
     // cout << "-1-";
 
@@ -262,7 +268,7 @@ char find_decision(node *level_data, row_info test_data)
 bool testing(node *root, row_info test_data)
 {
     char ch = find_decision(root, test_data);
-    // cout << ch << " ";
+    // cout << ch << " = "<<test_data.class_name<<endl;
     if (ch == test_data.class_name)
     {
         return true;
@@ -307,10 +313,10 @@ int main()
 {
     load_data();
     node *root = create_tree();
-    //  cout << " root: " << root << endl;
+    cout << " root: " << root << endl;
     //  cout << "Total:  " << counter2 << endl;
     int match = 0, disMatch = 0;
-    for (int i = 600; i < 625; i++)
+    for (int i = MAX; i < TOTAL; i++)
     {
         if (testing(root, values[i]))
             match++;
@@ -319,7 +325,7 @@ int main()
     }
 
     double probability = (double)match / (double)(match + disMatch);
-    cout << "Probability is: " << probability*100 << endl;
+    cout << "Probability is: " << probability * 100 << endl;
 
     // print_tree(root);
 
