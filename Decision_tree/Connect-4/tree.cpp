@@ -235,7 +235,7 @@ void load_data()
         // cout << values[i].class_name << endl;
     }
 
-    shuffle(values, values + TOTAL-1, default_random_engine(9));
+    shuffle(values, values + TOTAL - 1, default_random_engine(9));
 }
 
 char find_decision(node *level_data, row_info test_data)

@@ -2,12 +2,12 @@
 #include <vector>
 using namespace std;
 
-#define MAX 2000
-#define TOTAL 7000
+#define MAX 3000
+#define TOTAL 8000
 #define COL 42
-#define NUMBER_OF_TREE 5
+#define NUMBER_OF_TREE 7
 #define MAX_COL 42
-#define TESTING_DATA 6000
+#define TESTING_DATA 7000
 
 int rand_array[NUMBER_OF_TREE][MAX_COL];
 struct original_row_info
@@ -252,7 +252,7 @@ void load_data()
 
 void load_tree_data(int index)
 {
-     shuffle(data_value, data_value + TESTING_DATA-1, default_random_engine(index));
+    shuffle(data_value, data_value + TESTING_DATA - 1, default_random_engine(index));
     //  char temp;
     //  string restLine;
     //  ifstream myFile("connect-4.data");
@@ -274,7 +274,7 @@ void load_all_data()
     char temp;
     string restLine;
     ifstream myFile("connect-4.data");
-    int count=0;
+    int count = 0;
     for (int i = 0; i < TOTAL; i++)
     {
         for (int k = 0; k < MAX_COL; k++)
@@ -283,7 +283,7 @@ void load_all_data()
             // cout << values[i].attribute_info[k] << " ";
         }
         myFile >> data_value[i].class_name;
-        cout<<i<<"-"<<data_value[i].class_name;
+        // cout<<i<<"-"<<data_value[i].class_name;
         getline(myFile, restLine);
 
         // cout << values[i].class_name << endl;
@@ -321,8 +321,9 @@ char find_decision(node *level_data, original_row_info test_data)
 
 bool testing(node *root, original_row_info test_data)
 {
+
     char ch = find_decision(root, test_data);
-    //cout << ch << " = "<<test_data.class_name<<endl;
+    // cout << ch << " = "<<test_data.class_name<<endl;
     if (ch == test_data.class_name)
     {
         return true;
@@ -337,38 +338,51 @@ int decision_tree()
 {
     node **roots = new node *[NUMBER_OF_TREE];
     load_all_data();
-    for(int i=0;i<NUMBER_OF_TREE;i++){
+    for (int i = 0; i < NUMBER_OF_TREE; i++)
+    {
         load_tree_data(i);
         roots[i] = create_tree();
-        cout<<roots[i]<<endl;
+        cout << roots[i] << endl;
     }
-        for(int i=0;i<TOTAL;i++){
-            cout<<data_value[i].class_name;
-        }
-    
-    //cout << " root: " << root << endl;
-    //  cout << "Total:  " << counter2 << endl;
-    int match = 0, disMatch = 0;
+    load_all_data();
+
+    int match = 0, disMatch = 0, def = 0;
+    char ch, fnl;
     for (int i = TESTING_DATA; i < TOTAL; i++)
     {
-        //cout<<data_value[i].class_name<<" ";
-        int qualified=0,disqualified=0;
-        for(int j=0;j<NUMBER_OF_TREE;j++){
-            if (testing(roots[j], data_value[i]))
-                qualified++;
+        int d = 0, w = 0, l = 0;
+        for (int j = 0; j < NUMBER_OF_TREE; j++)
+        {
+            ch = find_decision(roots[j], data_value[i]);
+            if (ch == 'd')
+                d++;
+            else if (ch == 'w')
+                w++;
             else
-                disqualified++;
+                l++;
         }
-        //cout<<"quali "<<qualified<<" dis: "<<disqualified<<endl;
-        if(qualified>2)
+        cout << "d: " << d << " w: " << w << " l: " << l << endl;
+        if ((d > l) && (d > w))
+            fnl = 'd';
+        else if ((l > w) && (l > d))
+            fnl = 'l';
+        else if ((w > l) && (w > d))
+            fnl = 'w';
+        else
+        {
+            fnl = 'w';
+            def++;
+        }
+
+        if (fnl == data_value[i].class_name)
             match++;
         else
             disMatch++;
-        
     }
 
     double probability = (double)match / (double)(match + disMatch);
-    cout << "Probability is: " << probability * 100 << endl;
+    cout << "Probability is: " << probability * 100 << endl
+         << def;
 
     // print_tree(root);
 
@@ -379,6 +393,6 @@ int main()
 {
     // load_all_data();
     // for(int i=0;i<5;i++)
-        decision_tree();
-    //decision_tree(0);
+    decision_tree();
+    // decision_tree(0);
 }
