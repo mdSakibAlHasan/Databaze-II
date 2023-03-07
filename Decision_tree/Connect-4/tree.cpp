@@ -235,7 +235,7 @@ void load_data()
         // cout << values[i].class_name << endl;
     }
 
-    shuffle(values, values + TOTAL-1, default_random_engine(9));
+    shuffle(values, values + TOTAL - 1, default_random_engine(1209));
 }
 
 char find_decision(node *level_data, row_info test_data)
@@ -324,10 +324,10 @@ int main()
             disMatch++;
     }
 
-    double probability = (double)match / (double)(match + disMatch);
-    cout << "Probability is: " << probability * 100 << endl;
+    double accuracy = (double)match / (double)(match + disMatch);
+    cout << "accuracy is: " << accuracy * 100 << endl;
 
-    // print_tree(root);
+     //print_tree(root);
 
     return 0;
 }

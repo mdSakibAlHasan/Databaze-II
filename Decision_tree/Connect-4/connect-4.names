@@ -12,7 +12,7 @@
    connect-4 in which neither player has won yet, and in which the next
    move is not forced.
 
-5. Number of Instances: 67557
+5. Number of Instances: 5001
 
 6. Number of Attributes: 42, each corresponding to one connect-4 square
 
