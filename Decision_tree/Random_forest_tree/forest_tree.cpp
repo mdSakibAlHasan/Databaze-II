@@ -5,7 +5,7 @@ using namespace std;
 #define MAX 3000
 #define TOTAL 8000
 #define COL 42
-#define NUMBER_OF_TREE 7
+#define NUMBER_OF_TREE 5
 #define MAX_COL 42
 #define TESTING_DATA 7000
 
@@ -361,7 +361,7 @@ int decision_tree()
             else
                 l++;
         }
-        cout << "d: " << d << " w: " << w << " l: " << l << endl;
+        //cout << "d: " << d << " w: " << w << " l: " << l << endl;
         if ((d > l) && (d > w))
             fnl = 'd';
         else if ((l > w) && (l > d))
@@ -381,8 +381,8 @@ int decision_tree()
     }
 
     double probability = (double)match / (double)(match + disMatch);
-    cout << "Probability is: " << probability * 100 << endl
-         << def;
+    cout << "Probability is: " << probability * 100 << endl;
+        
 
     // print_tree(root);
 
