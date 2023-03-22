@@ -279,42 +279,12 @@ bool testing(node *root, row_info test_data)
     }
 }
 
-void print_sub_tree(node *root, string str)
-{
-    string new_str = str + "          ";
-    bool first = true;
-    int children_index = 0;
-    for (int i = 0; i < root->child_number; i++)
-    {
-        cout << root->internal_class_name << "----------";
-
-        if (root->leaf)
-        {
-            cout << endl
-                 << new_str;
-            // print_sub_tree(root->child[i],new_str);
-        }
-        else
-        {
-            print_sub_tree(root->child[i], new_str);
-        }
-    }
-    cout << endl
-         << str;
-}
-
-void print_tree(node *root)
-{
-    string str;
-    print_sub_tree(root, str);
-}
-
 int main()
 {
     load_data();
     node *root = create_tree();
     cout << " root: " << root << endl;
-    //  cout << "Total:  " << counter2 << endl;
+
     int match = 0, disMatch = 0;
     for (int i = MAX; i < TOTAL; i++)
     {
@@ -326,8 +296,6 @@ int main()
 
     double accuracy = (double)match / (double)(match + disMatch);
     cout << "accuracy is: " << accuracy * 100 << endl;
-
-     //print_tree(root);
 
     return 0;
 }

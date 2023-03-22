@@ -222,9 +222,9 @@ void load_data()
     char temp;
     int a, b, c;
     ifstream myFile("data.txt");
-    for (int i = 0; i < 14; i++)
+    for (int i = 0; i < 20; i++)
     {
-        
+
         for (int k = 0; k < 4; k++)
         {
             myFile >> values[i].attribute_info[k];
@@ -234,7 +234,7 @@ void load_data()
 
     // for (int i = 0; i < 14; i++)
     // {
-        
+
     //     for (int k = 0; k < 4; k++)
     //     {
     //         cout<< values[i].attribute_info[k]<<" ";
@@ -242,7 +242,7 @@ void load_data()
     //     cout<< values[i].class_name<<endl;
     // }
 
-    //shuffle(values, values + 625, default_random_engine(120));
+    // shuffle(values, values + 625, default_random_engine(120));
 }
 
 string find_decision(node *level_data, row_info test_data)
@@ -293,18 +293,18 @@ void print_sub_tree(node *root, string str)
     int children_index = 0;
     for (int i = 0; i < root->child_number; i++)
     {
-        //cout<<root->child[i]->internal_class_name<<" "
+        // cout<<root->child[i]->internal_class_name<<" "
 
-        cout<<str << root->child[i]->internal_class_name ;
+        cout << str << root->child[i]->internal_class_name;
 
         if (root->child[i]->leaf)
         {
-            cout << ":"<<root->child[i]->class_name<<endl;
+            cout << ":" << root->child[i]->class_name << endl;
             // print_sub_tree(root->child[i],new_str);
         }
         else
         {
-            cout<< endl;
+            cout << endl;
             print_sub_tree(root->child[i], new_str);
         }
     }
@@ -314,11 +314,13 @@ void print_sub_tree(node *root, string str)
 void print_tree(node *root)
 {
     string str;
-    cout<<root->attribute_number<<": atr "<<root->child_number<< ": class "<<root->internal_class_name<<endl;
-    for (int i = 0; i < root->child_number; i++){
-        cout<<root->child[i]->internal_class_name<<endl;
-    }
-    cout<<"end------------"<<endl;
+    cout << "Tree print here:" << endl;
+    // cout << root->attribute_number << ": atr " << root->child_number << ": class " << root->internal_class_name << endl;
+    // for (int i = 0; i < root->child_number; i++)
+    // {
+    //     cout << root->child[i]->internal_class_name << endl;
+    // }
+    // cout << "end------------" << endl;
     print_sub_tree(root, str);
 }
 
@@ -326,10 +328,10 @@ int main()
 {
     load_data();
     node *root = create_tree();
-     cout << " root: " << root << endl;
-     cout << "Total:  " << counter2 << endl;
+    cout << " root: " << root << endl;
+    cout << "Total:  " << counter2 << endl;
     int match = 0, disMatch = 0;
-    for (int i = 10; i < 14; i++)
+    for (int i = MAX; i < 20; i++)
     {
         if (testing(root, values[i]))
             match++;
@@ -338,7 +340,7 @@ int main()
     }
 
     double probability = (double)match / (double)(match + disMatch);
-    cout << "Probability is: " << probability*100 << endl;
+    cout << "Probability is: " << probability * 100 << endl;
 
     print_tree(root);
 

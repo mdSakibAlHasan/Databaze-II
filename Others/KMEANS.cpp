@@ -3,6 +3,7 @@
 #include <vector>
 #include <cmath>
 #include <limits>
+#define MAX_DATA 50
 
 using namespace std;
 
@@ -76,7 +77,7 @@ void k_means(vector<Coordinate>& coordinates, int k) {
     
 
     //print output
-    for(int j=0;j<3;j++){
+    for(int j=0;j<k;j++){
         cout<<"Cluster is: "<<j<<endl;
         for (int i = 0; i < coordinates.size(); i++) {
             if(clusters[i] == j)
@@ -86,14 +87,18 @@ void k_means(vector<Coordinate>& coordinates, int k) {
 }
 
 int main() {
-    ifstream infile("coordinates.txt"); // Open the input file
+    ifstream infile("coordinates.txt"); 
     vector<Coordinate> coordinates;
     double x, y;
-    while (infile >> x >> y) { // Read the coordinates from the file
+    int counter=0;
+    while (infile >> x >> y) { 
         Coordinate c = {x, y};
         coordinates.push_back(c);
+        if(++counter>MAX_DATA)
+            break;
     }
-    int k = 3; // Set the number of clusters
-    k_means(coordinates, k); // Perform K-means clustering
+
+    int k = 4; // Set the number of clusters
+    k_means(coordinates, k); 
     return 0;
 }

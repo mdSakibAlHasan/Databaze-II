@@ -280,26 +280,34 @@ void print_sub_tree(node *root, string str)
     int children_index = 0;
     for (int i = 0; i < root->child_number; i++)
     {
-        cout << root->internal_class_name << "----------";
+        // cout<<root->child[i]->internal_class_name<<" "
 
-        if (root->leaf)
+        cout << str << root->child[i]->internal_class_name;
+
+        if (root->child[i]->leaf)
         {
-            cout << endl
-                 << new_str;
+            cout << ":" << root->child[i]->class_name << endl;
             // print_sub_tree(root->child[i],new_str);
         }
         else
         {
+            cout << endl;
             print_sub_tree(root->child[i], new_str);
         }
     }
-    cout << endl
-         << str;
+    cout << endl;
 }
 
 void print_tree(node *root)
 {
     string str;
+    cout << "Tree print here:" << endl;
+    // cout << root->attribute_number << ": atr " << root->child_number << ": class " << root->internal_class_name << endl;
+    // for (int i = 0; i < root->child_number; i++)
+    // {
+    //     cout << root->child[i]->internal_class_name << endl;
+    // }
+    // cout << "end------------" << endl;
     print_sub_tree(root, str);
 }
 
@@ -319,9 +327,9 @@ int main()
     }
 
     double probability = (double)match / (double)(match + disMatch);
-    cout << "Probability is: " << probability*100 << endl;
+    cout << "Probability is: " << probability * 100 << endl;
 
-    // print_tree(root);
+    //print_tree(root);
 
     return 0;
 }

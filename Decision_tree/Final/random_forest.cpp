@@ -2,39 +2,33 @@
 #include <vector>
 using namespace std;
 
-#define MAX 3000
-#define TOTAL 8000
-#define COL 21
-#define NUMBER_OF_TREE 5
-#define MAX_COL 42
-#define TESTING_DATA 7000
-
-int rand_array[NUMBER_OF_TREE][MAX_COL];
-struct original_row_info
-{
-    char class_name;
-    char attribute_info[MAX_COL];
-};
-original_row_info data_value[TESTING_DATA];
-
+#define MAX 200
+#define COL 8
 struct row_info
 {
-    char class_name;
-    char attribute_info[COL];
+    string class_name;
+    string attribute_info[2];
+    int a,b;
 };
-row_info values[TOTAL];
+row_info values[20];
+
+struct row_information
+{
+    string class_name;
+    string attribute_info[4];
+};
+row_information row_value[20];
 
 struct node
 {
     int attribute_number, child_number;
-    char internal_class_name; // Which catagory it divided of parents values
-    char class_name;
+    string class_name, internal_class_name; // Which catagory it divided of parents values
     bool leaf = false;
     node **child;
     vector<row_info> row;
 };
 
-double find_attribute_probability(char num, int index, node *r)
+double find_attribute_probability(string num, int index, node *r)
 {
     int result = 0;
     for (int i = 0; i < r->row.size(); i++)
@@ -45,7 +39,7 @@ double find_attribute_probability(char num, int index, node *r)
     return (double)result;
 }
 
-double find_class_probability(char ch, node *r)
+double find_class_probability(string ch, node *r)
 {
     int result = 0;
     for (int i = 0; i < r->row.size(); i++)
@@ -56,7 +50,7 @@ double find_class_probability(char ch, node *r)
     return (double)result;
 }
 
-double find_probability_value(char num, char ch, int index, node *r)
+double find_probability_value(string num, string ch, int index, node *r)
 {
     int result = 0;
     for (int i = 0; i < r->row.size(); i++)
@@ -71,6 +65,7 @@ double find_probability_value(char num, char ch, int index, node *r)
 int sorting_colum_number;
 void sortAttribute(node *r, int column)
 {
+    //cout<<sorting_colum_number<<":";
     sorting_colum_number = column;
     std::sort(r->row.begin(), r->row.end(), [](const row_info &a, const row_info &b)
               { return a.attribute_info[sorting_colum_number] < b.attribute_info[sorting_colum_number]; });
@@ -78,8 +73,8 @@ void sortAttribute(node *r, int column)
 
 void calculate_gain_value(node *row_information)
 {
-    set<char> attribute_value;
-    set<char> class_value;
+    set<string> attribute_value;
+    set<string> class_value;
     double total_row = (double)(row_information->row.size()), heighest_gain_value = 0, t1, t2, t3;
     double entropy = 0, row_entropy;
 
@@ -126,13 +121,13 @@ void calculate_gain_value(node *row_information)
         }
         attribute_value.clear();
     }
-
+    //cout<<"gffgf";
     sortAttribute(row_information, row_information->attribute_number);
 }
 
 bool checkSameClass(node *children)
 {
-    set<char> temp;
+    set<string> temp;
     for (int i = 0; i < children->row.size(); i++)
     {
         temp.insert(children->row[i].class_name);
@@ -168,7 +163,8 @@ void addChildren(node *children)
     node *new_child = new node();
     new_child->internal_class_name = children->row[0].attribute_info[children->attribute_number];
     children->child[0] = new_child;
-    int child_index = 0, first_value = children->row[0].attribute_info[children->attribute_number];
+    int child_index = 0;
+    string first_value = children->row[0].attribute_info[children->attribute_number];
     for (int i = 0; i < children->row.size(); i++)
     {
         if (children->row[i].attribute_info[children->attribute_number] == first_value)
@@ -203,7 +199,8 @@ struct node *create_tree()
     node *children = new node();
     root->child[0] = children;
     children->internal_class_name = root->row[0].attribute_info[root->attribute_number]; // Which catagory it divided
-    int child_index = 0, first_value = root->row[0].attribute_info[root->attribute_number];
+    int child_index = 0;
+    string first_value = root->row[0].attribute_info[root->attribute_number];
     for (int i = 0; i < root->row.size(); i++)
     {
         if (root->row[i].attribute_info[root->attribute_number] == first_value)
@@ -232,69 +229,34 @@ struct node *create_tree()
 void load_data()
 {
     char temp;
-    string restLine;
-    ifstream myFile("connect-4.data");
-    for (int i = 0; i < TOTAL; i++)
+    //int a, b, c;
+    ifstream myFile("new.txt");
+    for (int i = 0; i < 220; i++)
     {
-        for (int k = 0; k < COL; k++)
-        {
-            myFile >> values[i].attribute_info[k] >> temp;
-            // cout << values[i].attribute_info[k] << " ";
-        }
-        myFile >> values[i].class_name;
-        getline(myFile, restLine);
 
-        // cout << values[i].class_name << endl;
+        for (int k = 0; k < 8; k++)
+        {
+            myFile >> row_value[i].attribute_info[k];
+        }
+        myFile >> row_value[i].class_name;
     }
 
-    shuffle(values, values + TOTAL - 1, default_random_engine(9));
+    // for (int i = 0; i < 14; i++)
+    // {
+
+    //     for (int k = 0; k < 4; k++)
+    //     {
+    //         cout<< values[i].attribute_info[k]<<" ";
+    //     }
+    //     cout<< values[i].class_name<<endl;
+    // }
+
+    // shuffle(values, values + 625, default_random_engine(120));
 }
 
-void load_tree_data(int index)
+string find_decision(node *level_data, row_info test_data)
 {
-    shuffle(data_value, data_value + TESTING_DATA - 1, default_random_engine(index));
-    //  char temp;
-    //  string restLine;
-    //  ifstream myFile("connect-4.data");
-    for (int i = 0; i < MAX; i++)
-    {
-        for (int k = 0; k < COL; k++)
-        {
-            values[i].attribute_info[k] = data_value[i].attribute_info[k];
-            // cout << values[i].attribute_info[k] << " ";
-        }
-        values[i].class_name = data_value[i].class_name;
-        // getline(myFile, restLine);
-        //  cout << values[i].class_name << endl;
-    }
-}
-
-void load_all_data()
-{
-    char temp;
-    string restLine;
-    ifstream myFile("connect-4.data");
-    int count = 0;
-    for (int i = 0; i < TOTAL; i++)
-    {
-        for (int k = 0; k < MAX_COL; k++)
-        {
-            myFile >> data_value[i].attribute_info[k] >> temp;
-            // cout << values[i].attribute_info[k] << " ";
-        }
-        myFile >> data_value[i].class_name;
-        // cout<<i<<"-"<<data_value[i].class_name;
-        getline(myFile, restLine);
-
-        // cout << values[i].class_name << endl;
-    }
-    myFile.close();
-    shuffle(data_value, data_value + TESTING_DATA - 1, default_random_engine(9));
-}
-
-char find_decision(node *level_data, original_row_info test_data)
-{
-    char ch;
+    string ch;
     int i = 0;
     if (level_data->leaf)
     {
@@ -311,7 +273,7 @@ char find_decision(node *level_data, original_row_info test_data)
             }
         }
         if (i == level_data->child_number)
-            ch = find_decision(level_data->child[0], test_data);
+            ch = find_decision(level_data->child[i - 1], test_data);
     }
     // cout << "-1-";
 
@@ -319,11 +281,10 @@ char find_decision(node *level_data, original_row_info test_data)
     return ch;
 }
 
-bool testing(node *root, original_row_info test_data)
+bool testing(node *root, row_info test_data)
 {
-
-    char ch = find_decision(root, test_data);
-    // cout << ch << " = "<<test_data.class_name<<endl;
+    string ch = find_decision(root, test_data);
+    // cout << ch << " ";
     if (ch == test_data.class_name)
     {
         return true;
@@ -334,65 +295,86 @@ bool testing(node *root, original_row_info test_data)
     }
 }
 
-int decision_tree()
+void print_sub_tree(node *root, string str)
 {
-    node **roots = new node *[NUMBER_OF_TREE];
-    load_all_data();
-    for (int i = 0; i < NUMBER_OF_TREE; i++)
+    string new_str = str + "          ";
+    bool first = true;
+    int children_index = 0;
+    for (int i = 0; i < root->child_number; i++)
+    {
+        // cout<<root->child[i]->internal_class_name<<" "
+
+        cout << str << root->child[i]->internal_class_name;
+
+        if (root->child[i]->leaf)
+        {
+            cout << ":" << root->child[i]->class_name << endl;
+            // print_sub_tree(root->child[i],new_str);
+        }
+        else
+        {
+            cout << endl;
+            print_sub_tree(root->child[i], new_str);
+        }
+    }
+    cout << endl;
+}
+
+void print_tree(node *root)
+{
+    string str;
+    cout<<"Tree print here:"<<endl;
+    // cout << root->attribute_number << ": atr " << root->child_number << ": class " << root->internal_class_name << endl;
+    // for (int i = 0; i < root->child_number; i++)
+    // {
+    //     cout << root->child[i]->internal_class_name << endl;
+    // }
+    // cout << "end------------" << endl;
+    print_sub_tree(root, str);
+}
+
+void load_tree_data(int index)
+{
+    shuffle(row_value, row_value + 220, default_random_engine(index));
+    for(int i=0;i<MAX;i++){
+        for(int j=0;j<COL;j++){
+            values[i].attribute_info[j] = row_value[i].attribute_info[j];
+            values[i].class_name = row_value[i].class_name;
+        }
+        //values[i].attribute_info[0] = row_value[i].attribute_info[0];    
+    }
+}
+
+int main()
+{
+    load_data();
+    node **roots = new node *[3];
+    for (int i = 0; i < 3; i++)
     {
         load_tree_data(i);
         roots[i] = create_tree();
         cout << roots[i] << endl;
     }
-    load_all_data();
 
-    int match = 0, disMatch = 0, def = 0;
-    char ch, fnl;
-    for (int i = TESTING_DATA; i < TOTAL; i++)
-    {
-        int d = 0, w = 0, l = 0;
-        for (int j = 0; j < NUMBER_OF_TREE; j++)
-        {
-            ch = find_decision(roots[j], data_value[i]);
-            if (ch == 'd')
-                d++;
-            else if (ch == 'w')
-                w++;
-            else
-                l++;
-        }
-        //cout << "d: " << d << " w: " << w << " l: " << l << endl;
-        if ((d > l) && (d > w))
-            fnl = 'd';
-        else if ((l > w) && (l > d))
-            fnl = 'l';
-        else if ((w > l) && (w > d))
-            fnl = 'w';
-        else
-        {
-            fnl = 'w';
-            def++;
-        }
+    
+    // int counter=0;
+    // for (int i = 14; i < 20; i++)
+    // {
+    //     int match = 0, disMatch = 0;
+    //     for(int k=0;k<3;k++){
+    //         if (testing(roots[k], values[i]))
+    //             match++;
+    //         else
+    //             disMatch++;
+    //     }
+    //     if(match>disMatch)
+    //         counter++;
+    // }
 
-        if (fnl == data_value[i].class_name)
-            match++;
-        else
-            disMatch++;
-    }
+    // double probability = (double)counter/ (double)(6);
+    // cout << "Probability is: " << probability * 100 << endl;
 
-    double probability = (double)match / (double)(match + disMatch);
-    cout << "Probability is: " << probability * 100 << endl;
-        
-
-    // print_tree(root);
+    //print_tree(root);
 
     return 0;
-}
-
-int main()
-{
-    // load_all_data();
-    // for(int i=0;i<5;i++)
-    decision_tree();
-    // decision_tree(0);
 }

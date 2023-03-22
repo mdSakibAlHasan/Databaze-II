@@ -12,3 +12,9 @@ Sunny Mild Normal Strong Yes
 Overcast Mild High Strong Yes
 Overcast Hot Normal Weak Yes
 Rain Mild High Strong No
+Rain Mild High Weak Yes
+Overcast Cool Weak Strong Yes
+Overcast Hot Normal Weak No
+Sunny Cool Normal Strong Yes
+Rain Cool Normal Weak Yes
+Sunny Mild High Weak Yes
