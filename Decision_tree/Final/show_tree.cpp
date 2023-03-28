@@ -2,14 +2,15 @@
 #include <vector>
 using namespace std;
 
-#define MAX 14
-#define COL 4
+#define MAX 80
+#define COL 8
+#define MAX_DATA 150
 struct row_info
 {
     string class_name;
-    string attribute_info[4];
+    string attribute_info[8];
 };
-row_info values[20];
+row_info values[250];
 
 struct node
 {
@@ -221,25 +222,25 @@ void load_data()
 {
     char temp;
     int a, b, c;
-    ifstream myFile("data.txt");
-    for (int i = 0; i < 20; i++)
+    ifstream myFile("new.txt");
+    for (int i = 0; i < MAX_DATA; i++)
     {
 
-        for (int k = 0; k < 4; k++)
+        for (int k = 0; k < 8; k++)
         {
             myFile >> values[i].attribute_info[k];
         }
         myFile >> values[i].class_name;
     }
 
-    // for (int i = 0; i < 14; i++)
+    // for (int i = 0; i < MAX_DATA; i++)
     // {
 
-    //     for (int k = 0; k < 4; k++)
+    //     for (int k = 0; k < 8; k++)
     //     {
-    //         cout<< values[i].attribute_info[k]<<" ";
+    //         cout << i << " " << values[i].attribute_info[k] << " ";
     //     }
-    //     cout<< values[i].class_name<<endl;
+    //     cout << values[i].class_name << endl;
     // }
 
     // shuffle(values, values + 625, default_random_engine(120));
@@ -331,18 +332,18 @@ int main()
     cout << " root: " << root << endl;
     cout << "Total:  " << counter2 << endl;
     int match = 0, disMatch = 0;
-    for (int i = MAX; i < 20; i++)
+    for (int i = MAX; i < MAX_DATA; i++)
     {
         if (testing(root, values[i]))
             match++;
         else
             disMatch++;
     }
-
+    cout << match << " " << disMatch << endl;
     double probability = (double)match / (double)(match + disMatch);
     cout << "Probability is: " << probability * 100 << endl;
 
-    print_tree(root);
+    // print_tree(root);
 
     return 0;
 }

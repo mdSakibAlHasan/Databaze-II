@@ -5,7 +5,7 @@ using namespace std;
 #define MAX 5500
 #define TOTAL 6000
 #define TREE_DATA 2000
-#define COL 15
+#define COL 42
 #define MAX_COL 42
 #define NUMBER_OF_TREE 5
 
