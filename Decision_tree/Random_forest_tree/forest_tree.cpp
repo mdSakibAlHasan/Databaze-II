@@ -4,7 +4,7 @@ using namespace std;
 
 #define MAX 3000
 #define TOTAL 8000
-#define COL 42
+#define COL 40
 #define NUMBER_OF_TREE 5
 #define MAX_COL 42
 #define TESTING_DATA 7000
@@ -128,7 +128,7 @@ void calculate_gain_value(node *row_information)
             row_information->child_number = attribute_value.size();
         }
         attribute_value.clear();
-            //}
+        //}
     }
 
     sortAttribute(row_information, row_information->attribute_number);
@@ -158,7 +158,7 @@ void addChildren(node *children)
     {
         children->leaf = true;
         children->class_name = children->row[0].class_name;
-       
+
         return;
     }
 
@@ -229,45 +229,29 @@ struct node *create_tree()
 
 void create_random_col()
 {
-    srand(1209); 
+    srand(1209);
     for (int i = 0; i < NUMBER_OF_TREE; i++)
     {
         for (int j = 0; j < COL; j++)
         {
-            rand_col[i][j] = rand() % 2; 
+            rand_col[i][j] = rand() % 2;
         }
     }
 }
 
-void load_data()
-{
-    char temp;
-    string restLine;
-    ifstream myFile("connect-4.data");
-    for (int i = 0; i < TOTAL; i++)
-    {
-        for (int k = 0; k < COL; k++)
-        {
-            myFile >> values[i].attribute_info[k] >> temp;
-        }
-        myFile >> values[i].class_name;
-        getline(myFile, restLine);
-    }
 
-    shuffle(values, values + TOTAL - 1, default_random_engine(9));
-}
 
 void load_tree_data(int index)
 {
     shuffle(data_value, data_value + TESTING_DATA - 1, default_random_engine(index));
     for (int i = 0; i < MAX; i++)
     {
-        int p=0;
+        int p = 0;
         for (int k = 0; k < MAX_COL; k++)
         {
-            if(rand_array[index][k]!=0)
+            if (rand_array[index][k] != 0)
                 values[i].attribute_info[p++] = data_value[i].attribute_info[k];
-            values[i].attribute_info[k] = data_value[i].attribute_info[k];
+            //values[i].attribute_info[k] = data_value[i].attribute_info[k];
         }
         values[i].class_name = data_value[i].class_name;
     }
@@ -313,7 +297,7 @@ char find_decision(node *level_data, original_row_info test_data)
         if (i == level_data->child_number)
             ch = find_decision(level_data->child[0], test_data);
     }
-   
+
     return ch;
 }
 
@@ -342,9 +326,9 @@ int decision_tree()
         roots[i] = create_tree();
         cout << roots[i] << endl;
     }
-    
+
     load_all_data();
-   
+
     int match = 0, disMatch = 0, def = 0;
     char ch, fnl;
     for (int i = 0; i < TOTAL; i++)

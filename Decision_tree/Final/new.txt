@@ -1,220 +1,1050 @@
-Rain Cool Normal Weak No Local Home Paid Yes
-Sunny Hot High Strong No National Nutral Free Yes
-Overcast Mild High Weak Yes Local Away Free No
-Sunny Cool High Weak No National Home Free Yes
-Rain Mild Normal Strong Yes Local Away Free No
-Overcast Cool Normal Weak Yes National Home Free Yes
-Sunny Hot Normal Weak Yes Local Nutral Free Yes
-Rain Cool Normal Weak Yes National Away Free No
-Overcast Mild Normal Strong Yes National Nutral Paid No
-Sunny Mild High Weak No Local Away Paid Yes
-Rain Hot High Strong No National Away Paid Yes
-Overcast Cool High Strong Yes Local Nutral Paid No
-Sunny Mild Normal Strong Yes National Home Free Yes
-Rain Mild High Weak No Local Nutral Paid Yes
-Overcast Hot High Weak Yes Local Away Free Yes
-Sunny Cool Normal Weak Yes Local Nutral Paid Yes
-Rain Hot Normal Weak Yes National Home Paid No
-Overcast Mild High Strong No Local Home Free Yes
-Sunny Hot Normal Weak No Local Nutral Paid Yes
-Rain Mild Normal Strong No National Nutral Free No
-Overcast Cool Normal Weak Yes Local Home Paid Yes
-Sunny Mild High Strong No National Nutral Free Yes
-Rain Cool High Weak Yes Local Away Free No
-Overcast Hot Normal Strong Yes National Home Paid No
-Sunny Cool Normal Weak Yes National Away Free No
-Rain Mild Normal Strong Yes Local Home Free No
-Overcast Mild Normal Weak No National Nutral Paid Yes
-Sunny Hot Normal Strong Yes Local Away Paid No
-Rain Cool High Weak No Local Nutral Free Yes
-Overcast Hot Normal Strong Yes Local Home Free Yes
-Sunny Mild High Strong No National Nutral Free Yes
-Rain Hot High Weak Yes Local Nutral Paid No
-Overcast Cool Normal Weak No Local Home Paid Yes
-Sunny Hot High Strong No National Away Free Yes
-Rain Mild Normal Weak Yes National Nutral Paid Yes
-Overcast Mild High Strong Yes Local Away Paid Yes
-Sunny Cool Normal Weak No National Home Paid Yes
-Rain Hot High Strong Yes Local Nutral Free No
-Overcast Hot High Weak No National Away Paid Yes
-Sunny Mild Normal Strong No Local Home Free Yes
-Rain Cool High Strong Yes National Nutral Paid No
-Overcast Mild Normal Weak Yes Local Nutral Free No
-Sunny Hot Normal Weak Yes National Away Paid No
-Rain Hot Normal Strong No Local Home Paid No
-Overcast Cool High Strong No National Nutral Free Yes
-Sunny Mild High Weak Yes Local Away Free No
-Rain Mild High Weak Yes National Home Paid No
-Overcast Hot Normal Weak Yes Local Nutral Paid Yes
-Sunny Cool High Strong No National Away Free No
-Rain Mild Normal Strong No Local Nutral Free Yes
-Overcast Mild High Strong Yes National Home Free No
-Sunny Hot Normal Weak Yes Local Away Free No
-Rain Cool High Weak Yes Local Home Paid Yes
-Overcast Hot High Strong Yes Local Nutral Paid No
-Sunny Mild Normal Strong No National Nutral Free Yes
-Rain Hot High Weak No Local Away Free Yes
-Overcast Cool Normal Weak Yes Local Home Free Yes
-Sunny Hot High Weak Yes National Nutral Paid No
-Rain Mild High Strong Yes Local Away Free No
-Overcast Mild Normal Strong No Local Home Paid No
-Sunny Cool Normal Weak Yes National Nutral Free Yes
-Rain Hot Normal Weak No National Away Free Yes
-Overcast Cool High Weak Yes Local Home Paid Yes
-Sunny Mild High Strong Yes National Nutral Free No
-Rain Mild Normal Weak Yes Local Away Paid Yes
-Overcast Hot High Weak No Local Nutral Paid Yes
-Sunny Cool High Weak No National Home Free Yes
-Rain Hot Normal Strong Yes National Away Paid Yes
-Overcast Mild High Strong No Local Nutral Free No
-Sunny Hot High Strong Yes Local Home Paid Yes
-Rain Mild High Weak No National Nutral Free No
-Overcast Cool Normal Weak No Local Away Paid No
-Sunny Mild Normal Strong Yes National Home Free Yes
-Rain Cool High Strong Yes Local Nutral Paid No
-Overcast Hot Normal Strong Yes National Away Free Yes
-Sunny Cool Normal Weak No Local Home Free Yes
-Rain Hot High Weak Yes National Nutral Free No
-Overcast Mild High Strong No Local Away Paid Yes
-Sunny Mild Normal Weak Yes Local Nutral Free No
-Rain Cool Normal Weak Yes National Home Paid No
-Overcast Cool Normal Strong No National Away Free Yes
-Sunny Hot High Weak No Local Nutral Free Yes
-Rain Mild High Strong Yes Local Away Paid No
-Overcast Mild Normal Strong No Local Home Paid Yes
-Sunny Cool High Strong Yes National Nutral Free No
-Rain Hot High Weak No National Away Paid Yes
-Overcast Hot Normal Weak Yes Local Nutral Free Yes
-Sunny Mild High Strong No National Home Paid Yes
-Rain Cool High Strong Yes Local Home Paid No
-Sunny Mild Normal Weak No National Away Free Yes
-Overcast Hot High Weak Yes Local Nutral Free Yes
-Sunny Cool High Strong Yes National Home Free No
-Rain Mild High Strong No Local Away Paid No
-Sunny Mild Normal Strong Yes Local Nutral Free No
-Overcast Cool Normal Weak Yes National Away Free Yes
-Sunny Hot High Weak No Local Nutral Paid No
-Rain Hot High Strong No National Home Free Yes
-Overcast Cool High Strong No Local Away Paid No
-Rain Mild Normal Strong Yes Local Home Free Yes
-Sunny Hot Normal Strong No National Nutral Paid Yes
-Overcast Mild High Weak Yes Local Away Free No
-Sunny Mild High Strong No National Home Paid Yes
-Rain Hot Normal Weak Yes Local Away Free No
-Overcast Hot Normal Weak No National Nutral Free Yes
-Sunny Cool Normal Weak Yes Local Home Paid Yes
-Rain Mild High Weak No National Nutral Free Yes
-Overcast Mild Normal Strong Yes Local Away Paid No
-Sunny Hot Normal Weak Yes National Nutral Paid No
-Rain Cool High Weak Yes Local Nutral Free Yes
-Overcast Hot High Strong Yes National Home Paid Yes
-Sunny Mild Normal Weak No Local Away Paid No
-Rain Cool Normal Weak Yes National Nutral Paid No
-Overcast Cool Normal Strong No Local Home Free Yes
-Sunny Hot High Strong No National Away Paid No
-Rain Hot Normal Strong Yes Local Nutral Paid Yes
-Overcast Mild Normal Weak No National Home Paid No
-Sunny Cool High Weak No Local Nutral Free Yes
-Rain Mild Normal Weak Yes National Away Free Yes
-Overcast Hot High Weak Yes Local Home Free Yes
-Sunny Mild High Strong Yes National Nutral Paid No
-Rain Cool Normal Strong No Local Away Free No
-Overcast Mild High Strong No National Nutral Free Yes
-Sunny Hot Normal Strong Yes Local Home Paid Yes
-Rain Hot High Weak No National Nutral Free No
-Overcast Cool Normal Weak Yes Local Away Paid No
-Sunny Mild Normal Strong No National Nutral Free Yes
-Rain Mild High Strong Yes Local Home Free No
-Overcast Hot Normal Strong Yes National Away Paid Yes
-Sunny Cool Normal Strong Yes Local Nutral Paid No
-Rain Hot Normal Weak No National Home Free No
-Overcast Cool High Strong Yes Local Away Free Yes
-Sunny Hot High Weak No National Nutral Paid Yes
-Rain Mild Normal Weak No Local Home Paid Yes
-Overcast Mild Normal Strong Yes National Nutral Paid No
-Sunny Cool High Weak Yes Local Away Paid No
-Rain Hot High Strong Yes National Nutral Paid No
-Overcast Mild Normal Weak Yes Local Home Free Yes
-Sunny Cool High Weak No National Away Paid Yes
-Rain Mild Normal Strong Yes Local Nutral Paid No
-Overcast Cool Normal Weak Yes National Away Paid Yes
-Sunny Hot Normal Weak Yes Local Home Paid Yes
-Rain Cool Normal Weak Yes National Nutral Free Yes
-Overcast Mild Normal Strong Yes National Home Paid No
-Sunny Mild High Weak No Local Nutral Free Yes
-Rain Hot High Strong No National Nutral Paid Yes
-Overcast Cool High Strong Yes Local Away Free No
-Sunny Mild Normal Strong Yes National Nutral Paid No
-Rain Mild High Weak No Local Away Free Yes
-Overcast Hot High Weak Yes Local Nutral Free Yes
-Sunny Cool Normal Weak Yes Local Away Free Yes
-Rain Hot Normal Weak Yes National Home Free No
-Overcast Mild High Strong No Local Home Paid Yes
-Sunny Hot Normal Weak No Local Away Free Yes
-Rain Mild Normal Strong No National Nutral Paid Yes
-Overcast Cool Normal Weak Yes Local Nutral Free Yes
-Sunny Mild High Strong No National Home Paid Yes
-Rain Cool High Weak Yes Local Away Paid No
-Overcast Hot Normal Strong Yes National Nutral Free No
-Sunny Cool Normal Weak No National Home Paid Yes
-Rain Mild Normal Strong Yes Local Home Free No
-Overcast Mild Normal Weak No National Nutral Paid Yes
-Sunny Hot Normal Strong Yes Local Nutral Free No
-Rain Cool High Weak No Local Away Free Yes
-Overcast Hot Normal Strong Yes Local Home Free Yes
-Sunny Mild High Strong No National Nutral Paid Yes
-Rain Hot High Weak Yes Local Away Free No
-Overcast Cool Normal Weak No Local Home Paid Yes
-Sunny Hot High Strong No National Nutral Free Yes
-Rain Mild Normal Weak Yes National Home Paid No
-Overcast Mild High Strong Yes Local Away Free No
-Sunny Cool Normal Weak No National Away Paid Yes
-Rain Hot High Strong Yes Local Nutral Paid No
-Overcast Hot High Weak No National Home Free Yes
-Sunny Mild Normal Strong No Local Nutral Paid Yes
-Rain Cool High Strong Yes National Away Free No
-Overcast Mild Normal Weak Yes Local Nutral Free No
-Sunny Hot Normal Weak Yes National Home Paid No
-Rain Mild Normal Strong No Local Away Free Yes
-Overcast Cool High Strong No National Nutral Paid Yes
-Sunny Mild High Weak Yes Local Home Free No
-Rain Hot High Weak Yes National Nutral Free No
-Overcast Hot Normal Weak Yes Local Away Paid Yes
-Sunny Cool High Weak No National Home Free Yes
-Rain Mild High Strong Yes Local Nutral Free No
-Overcast Mild Normal Strong No Local Away Paid Yes
-Sunny Hot High Strong Yes Local Nutral Paid No
-Rain Cool Normal Weak Yes National Home Free No
-Overcast Cool Normal Strong No National Away Paid Yes
-Sunny Mild High Strong Yes National Nutral Free No
-Rain Hot Normal Weak No Local Away Free Yes
-Overcast Hot High Strong Yes Local Home Paid Yes
-Sunny Cool High Weak Yes Local Nutral Free No
-Rain Mild High Weak No National Nutral Paid Yes
-Overcast Mild Normal Weak Yes Local Home Paid No
-Sunny Hot Normal Weak No Local Nutral Free Yes
-Rain Cool Normal Weak No Local Home Paid Yes
-Overcast Cool Normal Weak Yes Local Away Paid No
-Sunny Mild Normal Strong Yes National Nutral Paid No
-Rain Hot High Strong No Local Away Free Yes
-Overcast Hot Normal Weak Yes Local Home Paid Yes
-Sunny Cool Normal Weak No Local Nutral Free Yes
-Rain Mild Normal Strong Yes National Home Free No
-Overcast Mild High Strong No Local Nutral Paid Yes
-Sunny Hot Normal Weak Yes Local Away Free No
-Rain Cool High Weak Yes Local Home Free Yes
-Overcast Cool High Strong Yes National Away Paid No
-Sunny Mild Normal Strong No Local Nutral Free Yes
-Rain Hot High Weak No National Home Paid Yes
-Overcast Hot Normal Strong No Local Away Free Yes
-Sunny Cool High Weak Yes National Nutral Free No
-Rain Mild Normal Strong No Local Home Paid Yes
-Overcast Mild High Strong Yes National Away Free No
-Sunny Hot Normal Weak Yes Local Home Free No
-Rain Cool High Strong No National Nutral Paid Yes
-Overcast Cool Normal Weak No Local Away Paid Yes
-Sunny Mild High Strong No National Away Free Yes
-Rain Hot High Weak No Local Nutral Free Yes
-Overcast Hot High Strong Yes Local Home Paid Yes
-Sunny Cool Normal Weak Yes Local Nutral Paid No
-Rain Mild High Weak Yes National Nutral Free No
+b b b b b b b b b b b b x o b b b b x o x o x o b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b x b b b b b x o x o x o o b b b b b b b b b b b b b b b b b win
+b b b b b b o b b b b b x b b b b b x o x o x o b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b x b b b b b x o x o x o b b b b b b o b b b b b b b b b b b win
+o b b b b b b b b b b b x b b b b b x o x o x o b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b x b b b b b x o x o x o b b b b b b b b b b b b o b b b b b win
+b b b b b b x b b b b b o b b b b b x o x o x o b b b b b b b b b b b b b b b b b b loss
+b b b b b b x b b b b b b b b b b b x o x o x o o b b b b b b b b b b b b b b b b b win
+b b b b b b x o b b b b b b b b b b x o x o x o b b b b b b b b b b b b b b b b b b win
+b b b b b b x b b b b b b b b b b b x o x o x o b b b b b b o b b b b b b b b b b b win
+o b b b b b x b b b b b b b b b b b x o x o x o b b b b b b b b b b b b b b b b b b win
+b b b b b b x b b b b b b b b b b b x o x o x o b b b b b b b b b b b b o b b b b b win
+x b b b b b b b b b b b o b b b b b x o x o x o b b b b b b b b b b b b b b b b b b win
+x b b b b b b b b b b b b b b b b b x o x o x o o b b b b b b b b b b b b b b b b b win
+x b b b b b o b b b b b b b b b b b x o x o x o b b b b b b b b b b b b b b b b b b loss
+x b b b b b b b b b b b b b b b b b x o x o x o b b b b b b o b b b b b b b b b b b win
+x o b b b b b b b b b b b b b b b b x o x o x o b b b b b b b b b b b b b b b b b b win
+x b b b b b b b b b b b b b b b b b x o x o x o b b b b b b b b b b b b o b b b b b win
+b b b b b b b b b b b b o o b b b b x o x o x x b b b b b b b b b b b b b b b b b b loss
+b b b b b b b b b b b b o b b b b b x o x o x x o b b b b b b b b b b b b b b b b b win
+b b b b b b o b b b b b o b b b b b x o x o x x b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o b b b b b x o x o x x b b b b b b o b b b b b b b b b b b win
+o b b b b b b b b b b b o b b b b b x o x o x x b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o b b b b b x o x o x x b b b b b b b b b b b b o b b b b b  loss
+b b b b b b b b b b b b o x b b b b x o x o x o b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o x o b b b x o x o x b b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o x b b b b x o x o x b o b b b b b b b b b b b b b b b b b win
+b b b b b b o b b b b b o x b b b b x o x o x b b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o x b b b b x o x o x b b b b b b b o b b b b b b b b b b b win
+o b b b b b b b b b b b o x b b b b x o x o x b b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o x b b b b x o x o x b b b b b b b b b b b b b o b b b b b win
+b b b b b b b b b b b b o o b b b b x o x o x b x b b b b b b b b b b b b b b b b b loss
+b b b b b b b b b b b b o b b b b b x o x o x b x o b b b b b b b b b b b b b b b b  loss
+b b b b b b o b b b b b o b b b b b x o x o x b x b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o b b b b b x o x o x b x b b b b b o b b b b b b b b b b b loss
+o b b b b b b b b b b b o b b b b b x o x o x b x b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o b b b b b x o x o x b x b b b b b b b b b b b o b b b b b win
+b b b b b b x b b b b b o o b b b b x o x o x b b b b b b b b b b b b b b b b b b b loss
+b b b b b b x b b b b b o b b b b b x o x o x b o b b b b b b b b b b b b b b b b b win
+b b b b b b x o b b b b o b b b b b x o x o x b b b b b b b b b b b b b b b b b b b loss
+b b b b b b x b b b b b o b b b b b x o x o x b b b b b b b o b b b b b b b b b b b  loss
+o b b b b b x b b b b b o b b b b b x o x o x b b b b b b b b b b b b b b b b b b b win
+b b b b b b x b b b b b o b b b b b x o x o x b b b b b b b b b b b b b o b b b b b  loss
+b b b b b b b b b b b b o o b b b b x o x o x b b b b b b b x b b b b b b b b b b b win
+b b b b b b o b b b b b o b b b b b x o x o x b b b b b b b x b b b b b b b b b b b win
+b b b b b b b b b b b b o b b b b b x o x o x b b b b b b b x o b b b b b b b b b b win
+o b b b b b b b b b b b o b b b b b x o x o x b b b b b b b x b b b b b b b b b b b win
+b b b b b b b b b b b b o b b b b b x o x o x b b b b b b b x b b b b b o b b b b b win
+x b b b b b b b b b b b o o b b b b x o x o x b b b b b b b b b b b b b b b b b b b loss
+x b b b b b b b b b b b o b b b b b x o x o x b o b b b b b b b b b b b b b b b b b win
+x b b b b b o b b b b b o b b b b b x o x o x b b b b b b b b b b b b b b b b b b b win
+x b b b b b b b b b b b o b b b b b x o x o x b b b b b b b o b b b b b b b b b b b  loss
+x o b b b b b b b b b b o b b b b b x o x o x b b b b b b b b b b b b b b b b b b b win
+x b b b b b b b b b b b o b b b b b x o x o x b b b b b b b b b b b b b o b b b b b win
+b b b b b b b b b b b b o o b b b b x o x o x b b b b b b b b b b b b b x b b b b b win
+b b b b b b o b b b b b o b b b b b x o x o x b b b b b b b b b b b b b x b b b b b win
+b b b b b b b b b b b b o b b b b b x o x o x b b b b b b b o b b b b b x b b b b b loss
+o b b b b b b b b b b b o b b b b b x o x o x b b b b b b b b b b b b b x b b b b b win
+b b b b b b b b b b b b o b b b b b x o x o x b b b b b b b b b b b b b x o b b b b win
+b b b b b b o o b b b b b b b b b b x o x o x x b b b b b b b b b b b b b b b b b b loss
+b b b b b b o b b b b b b b b b b b x o x o x x b b b b b b o b b b b b b b b b b b loss
+o b b b b b o b b b b b b b b b b b x o x o x x b b b b b b b b b b b b b b b b b b win
+b b b b b b o b b b b b b b b b b b x o x o x x b b b b b b b b b b b b o b b b b b  loss
+b b b b b b o b b b b b x o b b b b x o x o x b b b b b b b b b b b b b b b b b b b win
+b b b b b b o o b b b b x b b b b b x o x o x b b b b b b b b b b b b b b b b b b b loss
+b b b b b b o b b b b b x b b b b b x o x o x b b b b b b b o b b b b b b b b b b b  loss
+o b b b b b o b b b b b x b b b b b x o x o x b b b b b b b b b b b b b b b b b b b win
+b b b b b b o b b b b b x b b b b b x o x o x b b b b b b b b b b b b b o b b b b b win
+b b b b b b o b b b b b b b b b b b x o x o x b x o b b b b b b b b b b b b b b b b win
+b b b b b b o o b b b b b b b b b b x o x o x b x b b b b b b b b b b b b b b b b b win
+o b b b b b o b b b b b b b b b b b x o x o x b x b b b b b b b b b b b b b b b b b win
+b b b b b b o b b b b b b b b b b b x o x o x b x b b b b b b b b b b b o b b b b b win
+b b b b b b o x b b b b b b b b b b x o x o x o b b b b b b b b b b b b b b b b b b win
+b b b b b b o x b b b b o b b b b b x o x o x b b b b b b b b b b b b b b b b b b b win
+b b b b b b o x b b b b b b b b b b x o x o x b o b b b b b b b b b b b b b b b b b win
+b b b b b b o x o b b b b b b b b b x o x o x b b b b b b b b b b b b b b b b b b b win
+b b b b b b o x b b b b b b b b b b x o x o x b b b b b b b o b b b b b b b b b b b win
+o b b b b b o x b b b b b b b b b b x o x o x b b b b b b b b b b b b b b b b b b b win
+b b b b b b o x b b b b b b b b b b x o x o x b b b b b b b b b b b b b o b b b b b win
+b b b b b b o o b b b b b b b b b b x o x o x b b b b b b b x b b b b b b b b b b b win
+b b b b b b o b b b b b b b b b b b x o x o x b b b b b b b x o b b b b b b b b b b win
+o b b b b b o b b b b b b b b b b b x o x o x b b b b b b b x b b b b b b b b b b b win
+b b b b b b o b b b b b b b b b b b x o x o x b b b b b b b x b b b b b o b b b b b win
+x b b b b b o o b b b b b b b b b b x o x o x b b b b b b b b b b b b b b b b b b b loss
+x b b b b b o b b b b b b b b b b b x o x o x b b b b b b b o b b b b b b b b b b b loss
+x o b b b b o b b b b b b b b b b b x o x o x b b b b b b b b b b b b b b b b b b b loss
+x b b b b b o b b b b b b b b b b b x o x o x b b b b b b b b b b b b b o b b b b b loss
+b b b b b b o o b b b b b b b b b b x o x o x b b b b b b b b b b b b b x b b b b b loss
+o b b b b b o b b b b b b b b b b b x o x o x b b b b b b b b b b b b b x b b b b b win
+b b b b b b o b b b b b b b b b b b x o x o x b b b b b b b b b b b b b x o b b b b win
+o o b b b b b b b b b b b b b b b b x o x o x x b b b b b b b b b b b b b b b b b b win
+o b b b b b b b b b b b b b b b b b x o x o x x b b b b b b b b b b b b o b b b b b loss
+o b b b b b b b b b b b x o b b b b x o x o x b b b b b b b b b b b b b b b b b b b win
+o o b b b b b b b b b b x b b b b b x o x o x b b b b b b b b b b b b b b b b b b b win
+o b b b b b b b b b b b x b b b b b x o x o x b b b b b b b b b b b b b o b b b b b win
+o b b b b b b b b b b b b b b b b b x o x o x b x o b b b b b b b b b b b b b b b b win
+o o b b b b b b b b b b b b b b b b x o x o x b x b b b b b b b b b b b b b b b b b win
+o b b b b b x o b b b b b b b b b b x o x o x b b b b b b b b b b b b b b b b b b b loss
+o o b b b b x b b b b b b b b b b b x o x o x b b b b b b b b b b b b b b b b b b b win
+o b b b b b x b b b b b b b b b b b x o x o x b b b b b b b b b b b b b o b b b b b win
+o b b b b b b b b b b b b b b b b b x o x o x b b b b b b b x o b b b b b b b b b b win
+o o b b b b b b b b b b b b b b b b x o x o x b b b b b b b x b b b b b b b b b b b win
+o x b b b b b b b b b b b b b b b b x o x o x o b b b b b b b b b b b b b b b b b b win
+o x b b b b b b b b b b o b b b b b x o x o x b b b b b b b b b b b b b b b b b b b win
+o x b b b b b b b b b b b b b b b b x o x o x b o b b b b b b b b b b b b b b b b b win
+o x b b b b o b b b b b b b b b b b x o x o x b b b b b b b b b b b b b b b b b b b win
+o x b b b b b b b b b b b b b b b b x o x o x b b b b b b b o b b b b b b b b b b b  loss
+o x o b b b b b b b b b b b b b b b x o x o x b b b b b b b b b b b b b b b b b b b win
+o x b b b b b b b b b b b b b b b b x o x o x b b b b b b b b b b b b b o b b b b b  loss
+o o b b b b b b b b b b b b b b b b x o x o x b b b b b b b b b b b b b x b b b b b win
+o b b b b b b b b b b b b b b b b b x o x o x b b b b b b b b b b b b b x o b b b b win
+b b b b b b b b b b b b x o b b b b x o x o o x b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b x b b b b b x o x o o x o b b b b b b b b b b b b b b b b b loss
+b b b b b b o b b b b b x b b b b b x o x o o x b b b b b b b b b b b b b b b b b b loss
+b b b b b b b b b b b b x b b b b b x o x o o x b b b b b b o b b b b b b b b b b b win
+o b b b b b b b b b b b x b b b b b x o x o o x b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b x b b b b b x o x o o x b b b b b b b b b b b b o b b b b b win
+b b b b b b b b b b b b x x b b b b x o x o o o b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b x x o b b b x o x o o b b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b x x b b b b x o x o o b o b b b b b b b b b b b b b b b b b win
+b b b b b b o b b b b b x x b b b b x o x o o b b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b x x b b b b x o x o o b b b b b b b o b b b b b b b b b b b win
+o b b b b b b b b b b b x x b b b b x o x o o b b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b x x b b b b x o x o o b b b b b b b b b b b b b o b b b b b win
+b b b b b b b b b b b b x b b b b b x o x o o b o b b b b b x b b b b b b b b b b b loss
+x b b b b b o b b b b b x b b b b b x o x o o b b b b b b b b b b b b b b b b b b b loss
+b b b b b b b b b b b b x b b b b b x o x o o o b b b b b b b b b b b b x b b b b b win
+b b b b b b b b b b b b x o b b b b x o x o o b b b b b b b b b b b b b x b b b b b win
+b b b b b b b b b b b b x b b b b b x o x o o b o b b b b b b b b b b b x b b b b b loss
+b b b b b b o b b b b b x b b b b b x o x o o b b b b b b b b b b b b b x b b b b b loss
+b b b b b b b b b b b b x b b b b b x o x o o b b b b b b b o b b b b b x b b b b b win
+o b b b b b b b b b b b x b b b b b x o x o o b b b b b b b b b b b b b x b b b b b win
+b b b b b b b b b b b b x b b b b b x o x o o b b b b b b b b b b b b b x o b b b b win
+b b b b b b b b b b b b x o o b b b x o x o x b b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b x o x b b b x o x o o b b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b x o x o b b x o x o b b b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b x o x b b b x o x o b b o b b b b b b b b b b b b b b b b b win
+b b b b b b o b b b b b x o x b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b x o x b b b x o x o b b b b b b b b o b b b b b b b b b b b win
+o b b b b b b b b b b b x o x b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b x o x b b b x o x o b b b b b b b b b b b b b b o b b b b b win
+b b b b b b b b b b b b x o b b b b x o x o b b o b b b b b x b b b b b b b b b b b loss
+x b b b b b o b b b b b x o b b b b x o x o b b b b b b b b b b b b b b b b b b b b loss
+b b b b b b b b b b b b x o o b b b x o x o b b b b b b b b b b b b b b x b b b b b win
+b b b b b b b b b b b b x o b b b b x o x o b b o b b b b b b b b b b b x b b b b b loss
+b b b b b b o b b b b b x o b b b b x o x o b b b b b b b b b b b b b b x b b b b b loss
+b b b b b b b b b b b b x o b b b b x o x o b b b b b b b b o b b b b b x b b b b b win
+o b b b b b b b b b b b x o b b b b x o x o b b b b b b b b b b b b b b x b b b b b win
+b b b b b b b b b b b b x o b b b b x o x o b b b b b b b b b b b b b b x o b b b b win
+b b b b b b b b b b b b x x o b b b x o x o b b o b b b b b b b b b b b b b b b b b loss
+b b b b b b b b b b b b x x b b b b x o x o b b o o b b b b b b b b b b b b b b b b win
+b b b b b b o b b b b b x x b b b b x o x o b b o b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b x x b b b b x o x o b b o b b b b b o b b b b b b b b b b b win
+o b b b b b b b b b b b x x b b b b x o x o b b o b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b x x b b b b x o x o b b o b b b b b b b b b b b o b b b b b win
+b b b b b b b b b b b b x b b b b b x o x o o b o x b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b x o b b b b x o x o b b o x b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b x b b b b b x o x o b b o x o b b b b b b b b b b b b b b b loss
+b b b b b b o b b b b b x b b b b b x o x o b b o x b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b x b b b b b x o x o b b o x b b b b o b b b b b b b b b b b win
+o b b b b b b b b b b b x b b b b b x o x o b b o x b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b x b b b b b x o x o b b o x b b b b b b b b b b o b b b b b win
+o b b b b b x b b b b b x b b b b b x o x o b b o b b b b b b b b b b b b b b b b b loss
+b b b b b b b b b b b b x b b b b b x o x o b b o o b b b b x b b b b b b b b b b b loss
+b b b b b b o b b b b b x b b b b b x o x o b b o b b b b b x b b b b b b b b b b b loss
+b b b b b b b b b b b b x b b b b b x o x o b b o b b b b b x o b b b b b b b b b b loss
+o b b b b b b b b b b b x b b b b b x o x o b b o b b b b b x b b b b b b b b b b b win
+b b b b b b b b b b b b x b b b b b x o x o b b o b b b b b x b b b b b o b b b b b loss
+x b b b b b o b b b b b x b b b b b x o x o b b o b b b b b b b b b b b b b b b b b loss
+b b b b b b b b b b b b x b b b b b x o x o b b o o b b b b b b b b b b x b b b b b loss
+b b b b b b o b b b b b x b b b b b x o x o b b o b b b b b b b b b b b x b b b b b loss
+b b b b b b b b b b b b x b b b b b x o x o b b o b b b b b o b b b b b x b b b b b  loss
+o b b b b b b b b b b b x b b b b b x o x o b b o b b b b b b b b b b b x b b b b b loss
+b b b b b b b b b b b b x b b b b b x o x o b b o b b b b b b b b b b b x o b b b b win
+b b b b b b o b b b b b x x o b b b x o x o b b b b b b b b b b b b b b b b b b b b loss
+b b b b b b o o b b b b x x b b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+b b b b b b o b b b b b x x b b b b x o x o b b b b b b b b o b b b b b b b b b b b win
+o b b b b b o b b b b b x x b b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+b b b b b b o b b b b b x x b b b b x o x o b b b b b b b b b b b b b b o b b b b b win
+b b b b b b o b b b b b x b b b b b x o x o b b x b b b b b o b b b b b b b b b b b loss
+b b b b b b o x b b b b x b b b b b x o x o o b b b b b b b b b b b b b b b b b b b win
+b b b b b b o x b b b b x o b b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+b b b b b b o x b b b b x b b b b b x o x o b b o b b b b b b b b b b b b b b b b b win
+b b b b b b o x o b b b x b b b b b x o x o b b b b b b b b b b b b b b b b b b b b loss
+b b b b b b o x b b b b x b b b b b x o x o b b b b b b b b o b b b b b b b b b b b  loss
+o b b b b b o x b b b b x b b b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+b b b b b b o x b b b b x b b b b b x o x o b b b b b b b b b b b b b b o b b b b b win
+x b b b b b o o b b b b x b b b b b x o x o b b b b b b b b b b b b b b b b b b b b loss
+x b b b b b o b b b b b x b b b b b x o x o b b b b b b b b o b b b b b b b b b b b loss
+x o b b b b o b b b b b x b b b b b x o x o b b b b b b b b b b b b b b b b b b b b loss
+x b b b b b o b b b b b x b b b b b x o x o b b b b b b b b b b b b b b o b b b b b  loss
+b b b b b b o o b b b b x b b b b b x o x o b b b b b b b b b b b b b b x b b b b b loss
+b b b b b b o b b b b b x b b b b b x o x o b b b b b b b b o b b b b b x b b b b b loss
+o b b b b b o b b b b b x b b b b b x o x o b b b b b b b b b b b b b b x b b b b b loss
+b b b b b b o b b b b b x b b b b b x o x o b b b b b b b b b b b b b b x o b b b b win
+b b b b b b b b b b b b x x o b b b x o x o b b b b b b b b o b b b b b b b b b b b win
+b b b b b b b b b b b b x x b b b b x o x o b b b b b b b b o o b b b b b b b b b b win
+o b b b b b b b b b b b x x b b b b x o x o b b b b b b b b o b b b b b b b b b b b win
+b b b b b b b b b b b b x x b b b b x o x o b b b b b b b b o b b b b b o b b b b b win
+b b b b b b b b b b b b x b b b b b x o x o o b b b b b b b o x b b b b b b b b b b win
+b b b b b b b b b b b b x o b b b b x o x o b b b b b b b b o x b b b b b b b b b b win
+b b b b b b b b b b b b x b b b b b x o x o b b o b b b b b o x b b b b b b b b b b win
+b b b b b b o b b b b b x b b b b b x o x o b b b b b b b b o x b b b b b b b b b b  loss
+b b b b b b b b b b b b x b b b b b x o x o b b b b b b b b o x o b b b b b b b b b win
+o b b b b b b b b b b b x b b b b b x o x o b b b b b b b b o x b b b b b b b b b b win
+b b b b b b b b b b b b x b b b b b x o x o b b b b b b b b o x b b b b o b b b b b win
+b b b b b b b b b b b b x b b b b b x o x o b b b b b b b b o o b b b b x b b b b b win
+o b b b b b b b b b b b x b b b b b x o x o b b b b b b b b o b b b b b x b b b b b  loss
+b b b b b b b b b b b b x b b b b b x o x o b b b b b b b b o b b b b b x o b b b b win
+o b b b b b b b b b b b x x o b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+o o b b b b b b b b b b x x b b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+o b b b b b b b b b b b x x b b b b x o x o b b b b b b b b b b b b b b o b b b b b win
+o x b b b b b b b b b b x b b b b b x o x o o b b b b b b b b b b b b b b b b b b b win
+o x b b b b b b b b b b x o b b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+o x b b b b b b b b b b x b b b b b x o x o b b o b b b b b b b b b b b b b b b b b  loss
+o x b b b b o b b b b b x b b b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+o x b b b b b b b b b b x b b b b b x o x o b b b b b b b b o b b b b b b b b b b b loss
+o x o b b b b b b b b b x b b b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+o x b b b b b b b b b b x b b b b b x o x o b b b b b b b b b b b b b b o b b b b b win
+o o b b b b b b b b b b x b b b b b x o x o b b b b b b b b b b b b b b x b b b b b win
+o b b b b b b b b b b b x b b b b b x o x o b b b b b b b b b b b b b b x o b b b b win
+b b b b b b b b b b b b x x o b b b x o x o b b b b b b b b b b b b b b o b b b b b win
+b b b b b b b b b b b b x x b b b b x o x o b b b b b b b b b b b b b b o o b b b b win
+b b b b b b b b b b b b x b b b b b x o x o o b b b b b b b b b b b b b o x b b b b win
+b b b b b b b b b b b b x o b b b b x o x o b b b b b b b b b b b b b b o x b b b b win
+b b b b b b b b b b b b x b b b b b x o x o b b o b b b b b b b b b b b o x b b b b loss
+b b b b b b o b b b b b x b b b b b x o x o b b b b b b b b b b b b b b o x b b b b loss
+b b b b b b b b b b b b x b b b b b x o x o b b b b b b b b o b b b b b o x b b b b win
+o b b b b b b b b b b b x b b b b b x o x o b b b b b b b b b b b b b b o x b b b b win
+b b b b b b b b b b b b x b b b b b x o x o b b b b b b b b b b b b b b o x o b b b win
+b b b b b b x b b b b b o b b b b b x o x o o x b b b b b b b b b b b b b b b b b b loss
+b b b b b b x b b b b b b b b b b b x o x o o x o b b b b b b b b b b b b b b b b b loss
+b b b b b b x o b b b b b b b b b b x o x o o x b b b b b b b b b b b b b b b b b b win
+b b b b b b x b b b b b b b b b b b x o x o o x b b b b b b o b b b b b b b b b b b win
+o b b b b b x b b b b b b b b b b b x o x o o x b b b b b b b b b b b b b b b b b b loss
+b b b b b b x b b b b b b b b b b b x o x o o x b b b b b b b b b b b b o b b b b b win
+b b b b b b x x b b b b b b b b b b x o x o o o b b b b b b b b b b b b b b b b b b win
+b b b b b b x x b b b b o b b b b b x o x o o b b b b b b b b b b b b b b b b b b b win
+b b b b b b x x b b b b b b b b b b x o x o o b o b b b b b b b b b b b b b b b b b win
+b b b b b b x x o b b b b b b b b b x o x o o b b b b b b b b b b b b b b b b b b b win
+b b b b b b x x b b b b b b b b b b x o x o o b b b b b b b o b b b b b b b b b b b win
+o b b b b b x x b b b b b b b b b b x o x o o b b b b b b b b b b b b b b b b b b b win
+b b b b b b x x b b b b b b b b b b x o x o o b b b b b b b b b b b b b o b b b b b win
+b b b b b b x b b b b b b b b b b b x o x o o o b b b b b b x b b b b b b b b b b b win
+b b b b b b x b b b b b o b b b b b x o x o o b b b b b b b x b b b b b b b b b b b loss
+b b b b b b x o b b b b b b b b b b x o x o o b b b b b b b x b b b b b b b b b b b win
+o b b b b b x b b b b b b b b b b b x o x o o b b b b b b b x b b b b b b b b b b b win
+x b b b b b x b b b b b o b b b b b x o x o o b b b b b b b b b b b b b b b b b b b loss
+b b b b b b x b b b b b b b b b b b x o x o o o b b b b b b b b b b b b x b b b b b win
+b b b b b b x b b b b b o b b b b b x o x o o b b b b b b b b b b b b b x b b b b b loss
+b b b b b b x b b b b b b b b b b b x o x o o b b b b b b b o b b b b b x b b b b b win
+o b b b b b x b b b b b b b b b b b x o x o o b b b b b b b b b b b b b x b b b b b win
+b b b b b b x b b b b b b b b b b b x o x o o b b b b b b b b b b b b b x o b b b b win
+b b b b b b x b b b b b o x b b b b x o x o o b b b b b b b b b b b b b b b b b b b win
+b b b b b b x b b b b b o x o b b b x o x o b b b b b b b b b b b b b b b b b b b b loss
+b b b b b b x b b b b b o x b b b b x o x o b b o b b b b b b b b b b b b b b b b b win
+b b b b b b x o b b b b o x b b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+b b b b b b x b b b b b o x b b b b x o x o b b b b b b b b o b b b b b b b b b b b win
+o b b b b b x b b b b b o x b b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+b b b b b b x b b b b b o x b b b b x o x o b b b b b b b b b b b b b b o b b b b b win
+b b b b b b x x b b b b o o b b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+b b b b b b x x b b b b o b b b b b x o x o b b o b b b b b b b b b b b b b b b b b win
+b b b b b b x x o b b b o b b b b b x o x o b b b b b b b b b b b b b b b b b b b b loss
+b b b b b b x x b b b b o b b b b b x o x o b b b b b b b b o b b b b b b b b b b b win
+o b b b b b x x b b b b o b b b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+b b b b b b x x b b b b o b b b b b x o x o b b b b b b b b b b b b b b o b b b b b win
+b b b b b b x b b b b b o o b b b b x o x o b b b b b b b b x b b b b b b b b b b b loss
+b b b b b b x b b b b b o b b b b b x o x o b b o b b b b b x b b b b b b b b b b b loss
+b b b b b b x o b b b b o b b b b b x o x o b b b b b b b b x b b b b b b b b b b b loss
+b b b b b b x b b b b b o b b b b b x o x o b b b b b b b b x o b b b b b b b b b b loss
+o b b b b b x b b b b b o b b b b b x o x o b b b b b b b b x b b b b b b b b b b b loss
+b b b b b b x b b b b b o b b b b b x o x o b b b b b b b b x b b b b b o b b b b b loss
+x b b b b b x b b b b b o o b b b b x o x o b b b b b b b b b b b b b b b b b b b b loss
+x b b b b b x b b b b b o b b b b b x o x o b b o b b b b b b b b b b b b b b b b b win
+x b b b b b x o b b b b o b b b b b x o x o b b b b b b b b b b b b b b b b b b b b loss
+x b b b b b x b b b b b o b b b b b x o x o b b b b b b b b o b b b b b b b b b b b loss
+x o b b b b x b b b b b o b b b b b x o x o b b b b b b b b b b b b b b b b b b b b loss
+x b b b b b x b b b b b o b b b b b x o x o b b b b b b b b b b b b b b o b b b b b loss
+b b b b b b x b b b b b o o b b b b x o x o b b b b b b b b b b b b b b x b b b b b loss
+b b b b b b x b b b b b o b b b b b x o x o b b o b b b b b b b b b b b x b b b b b win
+b b b b b b x o b b b b o b b b b b x o x o b b b b b b b b b b b b b b x b b b b b loss
+b b b b b b x b b b b b o b b b b b x o x o b b b b b b b b o b b b b b x b b b b b loss
+o b b b b b x b b b b b o b b b b b x o x o b b b b b b b b b b b b b b x b b b b b loss
+b b b b b b x b b b b b o b b b b b x o x o b b b b b b b b b b b b b b x o b b b b win
+b b b b b b x b b b b b b b b b b b x o x o o b o x b b b b b b b b b b b b b b b b win
+b b b b b b x b b b b b o b b b b b x o x o b b o x b b b b b b b b b b b b b b b b win
+b b b b b b x b b b b b b b b b b b x o x o b b o x o b b b b b b b b b b b b b b b win
+b b b b b b x o b b b b b b b b b b x o x o b b o x b b b b b b b b b b b b b b b b win
+b b b b b b x b b b b b b b b b b b x o x o b b o x b b b b o b b b b b b b b b b b win
+o b b b b b x b b b b b b b b b b b x o x o b b o x b b b b b b b b b b b b b b b b win
+b b b b b b x b b b b b b b b b b b x o x o b b o x b b b b b b b b b b o b b b b b win
+b b b b b b x x b b b b b b b b b b x o x o b b o o b b b b b b b b b b b b b b b b win
+b b b b b b x x o b b b b b b b b b x o x o b b o b b b b b b b b b b b b b b b b b loss
+b b b b b b x x b b b b b b b b b b x o x o b b o b b b b b o b b b b b b b b b b b win
+o b b b b b x x b b b b b b b b b b x o x o b b o b b b b b b b b b b b b b b b b b win
+b b b b b b x x b b b b b b b b b b x o x o b b o b b b b b b b b b b b o b b b b b win
+b b b b b b x b b b b b b b b b b b x o x o b b o o b b b b b b b b b b x b b b b b loss
+b b b b b b x o b b b b b b b b b b x o x o b b o b b b b b b b b b b b x b b b b b win
+b b b b b b x b b b b b b b b b b b x o x o b b o b b b b b o b b b b b x b b b b b win
+o b b b b b x b b b b b b b b b b b x o x o b b o b b b b b b b b b b b x b b b b b loss
+b b b b b b x b b b b b b b b b b b x o x o b b o b b b b b b b b b b b x o b b b b win
+b b b b b b x o o b b b b b b b b b x o x o x b b b b b b b b b b b b b b b b b b b win
+b b b b b b x o x b b b b b b b b b x o x o o b b b b b b b b b b b b b b b b b b b win
+b b b b b b x o x b b b o b b b b b x o x o b b b b b b b b b b b b b b b b b b b b loss
+b b b b b b x o x b b b b b b b b b x o x o b b o b b b b b b b b b b b b b b b b b win
+b b b b b b x o x o b b b b b b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+b b b b b b x o x b b b b b b b b b x o x o b b b b b b b b o b b b b b b b b b b b win
+o b b b b b x o x b b b b b b b b b x o x o b b b b b b b b b b b b b b b b b b b b loss
+b b b b b b x o x b b b b b b b b b x o x o b b b b b b b b b b b b b b o b b b b b win
+b b b b b b x o o b b b b b b b b b x o x o b b b b b b b b x b b b b b b b b b b b win
+b b b b b b x o b b b b b b b b b b x o x o b b b b b b b b x o b b b b b b b b b b win
+o b b b b b x o b b b b b b b b b b x o x o b b b b b b b b x b b b b b b b b b b b win
+b b b b b b x o b b b b b b b b b b x o x o b b b b b b b b x b b b b b o b b b b b win
+b b b b b b x o o b b b b b b b b b x o x o b b b b b b b b b b b b b b x b b b b b win
+b b b b b b x o b b b b b b b b b b x o x o b b b b b b b b o b b b b b x b b b b b win
+o b b b b b x o b b b b b b b b b b x o x o b b b b b b b b b b b b b b x b b b b b win
+b b b b b b x o b b b b b b b b b b x o x o b b b b b b b b b b b b b b x o b b b b win
+b b b b b b x x o b b b b b b b b b x o x o b b b b b b b b o b b b b b b b b b b b win
+b b b b b b x x b b b b b b b b b b x o x o b b b b b b b b o o b b b b b b b b b b win
+o b b b b b x x b b b b b b b b b b x o x o b b b b b b b b o b b b b b b b b b b b win
+b b b b b b x x b b b b b b b b b b x o x o b b b b b b b b o b b b b b o b b b b b win
+b b b b b b x b b b b b b b b b b b x o x o o b b b b b b b o x b b b b b b b b b b win
+b b b b b b x b b b b b o b b b b b x o x o b b b b b b b b o x b b b b b b b b b b win
+b b b b b b x b b b b b b b b b b b x o x o b b o b b b b b o x b b b b b b b b b b win
+b b b b b b x o b b b b b b b b b b x o x o b b b b b b b b o x b b b b b b b b b b win
+b b b b b b x b b b b b b b b b b b x o x o b b b b b b b b o x o b b b b b b b b b win
+o b b b b b x b b b b b b b b b b b x o x o b b b b b b b b o x b b b b b b b b b b win
+b b b b b b x b b b b b b b b b b b x o x o b b b b b b b b o x b b b b o b b b b b win
+b b b b b b x b b b b b b b b b b b x o x o b b b b b b b b o o b b b b x b b b b b win
+o b b b b b x b b b b b b b b b b b x o x o b b b b b b b b o b b b b b x b b b b b loss
+b b b b b b x b b b b b b b b b b b x o x o b b b b b b b b o b b b b b x o b b b b win
+o b b b b b x x o b b b b b b b b b x o x o b b b b b b b b b b b b b b b b b b b b loss
+o o b b b b x x b b b b b b b b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+o b b b b b x x b b b b b b b b b b x o x o b b b b b b b b b b b b b b o b b b b b win
+o o b b b b x b b b b b b b b b b b x o x o b b b b b b b b x b b b b b b b b b b b win
+o b b b b b x b b b b b b b b b b b x o x o b b b b b b b b x b b b b b o b b b b b loss
+o x b b b b x b b b b b b b b b b b x o x o o b b b b b b b b b b b b b b b b b b b win
+o x b b b b x b b b b b o b b b b b x o x o b b b b b b b b b b b b b b b b b b b b  loss
+o x b b b b x b b b b b b b b b b b x o x o b b o b b b b b b b b b b b b b b b b b win
+o x b b b b x o b b b b b b b b b b x o x o b b b b b b b b b b b b b b b b b b b b loss
+o x b b b b x b b b b b b b b b b b x o x o b b b b b b b b o b b b b b b b b b b b loss
+o x o b b b x b b b b b b b b b b b x o x o b b b b b b b b b b b b b b b b b b b b  loss
+o x b b b b x b b b b b b b b b b b x o x o b b b b b b b b b b b b b b o b b b b b win
+o o b b b b x b b b b b b b b b b b x o x o b b b b b b b b b b b b b b x b b b b b win
+o b b b b b x b b b b b b b b b b b x o x o b b b b b b b b b b b b b b x o b b b b win
+b b b b b b x x o b b b b b b b b b x o x o b b b b b b b b b b b b b b o b b b b b win
+b b b b b b x x b b b b b b b b b b x o x o b b b b b b b b b b b b b b o o b b b b win
+b b b b b b x b b b b b b b b b b b x o x o o b b b b b b b b b b b b b o x b b b b win
+b b b b b b x b b b b b o b b b b b x o x o b b b b b b b b b b b b b b o x b b b b win
+b b b b b b x b b b b b b b b b b b x o x o b b o b b b b b b b b b b b o x b b b b win
+b b b b b b x o b b b b b b b b b b x o x o b b b b b b b b b b b b b b o x b b b b win
+b b b b b b x b b b b b b b b b b b x o x o b b b b b b b b o b b b b b o x b b b b win
+o b b b b b x b b b b b b b b b b b x o x o b b b b b b b b b b b b b b o x b b b b win
+b b b b b b x b b b b b b b b b b b x o x o b b b b b b b b b b b b b b o x o b b b win
+x b b b b b b b b b b b o b b b b b x o x o o x b b b b b b b b b b b b b b b b b b loss
+x b b b b b b b b b b b b b b b b b x o x o o x o b b b b b b b b b b b b b b b b b loss
+x b b b b b o b b b b b b b b b b b x o x o o x b b b b b b b b b b b b b b b b b b loss
+x b b b b b b b b b b b b b b b b b x o x o o x b b b b b b o b b b b b b b b b b b loss
+x o b b b b b b b b b b b b b b b b x o x o o x b b b b b b b b b b b b b b b b b b loss
+x b b b b b b b b b b b b b b b b b x o x o o x b b b b b b b b b b b b o b b b b b  loss
+x x b b b b b b b b b b b b b b b b x o x o o o b b b b b b b b b b b b b b b b b b win
+x x b b b b b b b b b b o b b b b b x o x o o b b b b b b b b b b b b b b b b b b b win
+x x b b b b b b b b b b b b b b b b x o x o o b o b b b b b b b b b b b b b b b b b win
+x x b b b b o b b b b b b b b b b b x o x o o b b b b b b b b b b b b b b b b b b b win
+x x b b b b b b b b b b b b b b b b x o x o o b b b b b b b o b b b b b b b b b b b loss
+x x o b b b b b b b b b b b b b b b x o x o o b b b b b b b b b b b b b b b b b b b win
+x x b b b b b b b b b b b b b b b b x o x o o b b b b b b b b b b b b b o b b b b b win
+x b b b b b b b b b b b b b b b b b x o x o o o b b b b b b b b b b b b x b b b b b loss
+x b b b b b b b b b b b o b b b b b x o x o o b b b b b b b b b b b b b x b b b b b loss
+x b b b b b o b b b b b b b b b b b x o x o o b b b b b b b b b b b b b x b b b b b loss
+x o b b b b b b b b b b b b b b b b x o x o o b b b b b b b b b b b b b x b b b b b loss
+x b b b b b b b b b b b o x b b b b x o x o o b b b b b b b b b b b b b b b b b b b win
+x b b b b b b b b b b b o x o b b b x o x o b b b b b b b b b b b b b b b b b b b b loss
+x b b b b b b b b b b b o x b b b b x o x o b b o b b b b b b b b b b b b b b b b b win
+x b b b b b o b b b b b o x b b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+x b b b b b b b b b b b o x b b b b x o x o b b b b b b b b o b b b b b b b b b b b win
+x o b b b b b b b b b b o x b b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+x b b b b b b b b b b b o x b b b b x o x o b b b b b b b b b b b b b b o b b b b b win
+x x b b b b b b b b b b o o b b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+x x b b b b b b b b b b o b b b b b x o x o b b o b b b b b b b b b b b b b b b b b win
+x x b b b b o b b b b b o b b b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+x x b b b b b b b b b b o b b b b b x o x o b b b b b b b b o b b b b b b b b b b b loss
+x x o b b b b b b b b b o b b b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+x x b b b b b b b b b b o b b b b b x o x o b b b b b b b b b b b b b b o b b b b b win
+x b b b b b b b b b b b o o b b b b x o x o b b b b b b b b b b b b b b x b b b b b loss
+x b b b b b b b b b b b o b b b b b x o x o b b o b b b b b b b b b b b x b b b b b  loss
+x b b b b b o b b b b b o b b b b b x o x o b b b b b b b b b b b b b b x b b b b b  loss
+x b b b b b b b b b b b o b b b b b x o x o b b b b b b b b o b b b b b x b b b b b loss
+x o b b b b b b b b b b o b b b b b x o x o b b b b b b b b b b b b b b x b b b b b win
+x b b b b b b b b b b b o b b b b b x o x o b b b b b b b b b b b b b b x o b b b b win
+x b b b b b b b b b b b b b b b b b x o x o o b o x b b b b b b b b b b b b b b b b win
+x b b b b b b b b b b b o b b b b b x o x o b b o x b b b b b b b b b b b b b b b b win
+x b b b b b b b b b b b b b b b b b x o x o b b o x o b b b b b b b b b b b b b b b loss
+x b b b b b o b b b b b b b b b b b x o x o b b o x b b b b b b b b b b b b b b b b win
+x b b b b b b b b b b b b b b b b b x o x o b b o x b b b b o b b b b b b b b b b b win
+x o b b b b b b b b b b b b b b b b x o x o b b o x b b b b b b b b b b b b b b b b win
+x b b b b b b b b b b b b b b b b b x o x o b b o x b b b b b b b b b b o b b b b b win
+x x b b b b b b b b b b b b b b b b x o x o b b o o b b b b b b b b b b b b b b b b  loss
+x x b b b b o b b b b b b b b b b b x o x o b b o b b b b b b b b b b b b b b b b b win
+x x b b b b b b b b b b b b b b b b x o x o b b o b b b b b o b b b b b b b b b b b  loss
+x x o b b b b b b b b b b b b b b b x o x o b b o b b b b b b b b b b b b b b b b b win
+x x b b b b b b b b b b b b b b b b x o x o b b o b b b b b b b b b b b o b b b b b win
+x b b b b b o x b b b b b b b b b b x o x o o b b b b b b b b b b b b b b b b b b b loss
+x b b b b b o x b b b b o b b b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+x b b b b b o x b b b b b b b b b b x o x o b b o b b b b b b b b b b b b b b b b b win
+x b b b b b o x o b b b b b b b b b x o x o b b b b b b b b b b b b b b b b b b b b loss
+x b b b b b o x b b b b b b b b b b x o x o b b b b b b b b o b b b b b b b b b b b loss
+x o b b b b o x b b b b b b b b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+x b b b b b o x b b b b b b b b b b x o x o b b b b b b b b b b b b b b o b b b b b win
+x x b b b b o o b b b b b b b b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+x x b b b b o b b b b b b b b b b b x o x o b b b b b b b b o b b b b b b b b b b b  loss
+x x o b b b o b b b b b b b b b b b x o x o b b b b b b b b b b b b b b b b b b b b loss
+x x b b b b o b b b b b b b b b b b x o x o b b b b b b b b b b b b b b o b b b b b win
+x b b b b b o o b b b b b b b b b b x o x o b b b b b b b b b b b b b b x b b b b b loss
+x b b b b b o b b b b b b b b b b b x o x o b b b b b b b b o b b b b b x b b b b b loss
+x o b b b b o b b b b b b b b b b b x o x o b b b b b b b b b b b b b b x b b b b b loss
+x b b b b b o b b b b b b b b b b b x o x o b b b b b b b b b b b b b b x o b b b b  loss
+x b b b b b b b b b b b b b b b b b x o x o o b b b b b b b o x b b b b b b b b b b win
+x b b b b b b b b b b b o b b b b b x o x o b b b b b b b b o x b b b b b b b b b b win
+x b b b b b b b b b b b b b b b b b x o x o b b o b b b b b o x b b b b b b b b b b win
+x b b b b b o b b b b b b b b b b b x o x o b b b b b b b b o x b b b b b b b b b b  loss
+x b b b b b b b b b b b b b b b b b x o x o b b b b b b b b o x o b b b b b b b b b loss
+x o b b b b b b b b b b b b b b b b x o x o b b b b b b b b o x b b b b b b b b b b win
+x b b b b b b b b b b b b b b b b b x o x o b b b b b b b b o x b b b b o b b b b b win
+x x b b b b b b b b b b b b b b b b x o x o b b b b b b b b o o b b b b b b b b b b loss
+x x o b b b b b b b b b b b b b b b x o x o b b b b b b b b o b b b b b b b b b b b win
+x x b b b b b b b b b b b b b b b b x o x o b b b b b b b b o b b b b b o b b b b b win
+x o o b b b b b b b b b b b b b b b x o x o x b b b b b b b b b b b b b b b b b b b win
+x o o b b b b b b b b b b b b b b b x o x o b b x b b b b b b b b b b b b b b b b b win
+x o o b b b b b b b b b b b b b b b x o x o b b b b b b b b x b b b b b b b b b b b win
+x o x b b b b b b b b b b b b b b b x o x o o b b b b b b b b b b b b b b b b b b b win
+x o x b b b b b b b b b o b b b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+x o x b b b b b b b b b b b b b b b x o x o b b o b b b b b b b b b b b b b b b b b win
+x o x b b b o b b b b b b b b b b b x o x o b b b b b b b b b b b b b b b b b b b b loss
+x o x b b b b b b b b b b b b b b b x o x o b b b b b b b b o b b b b b b b b b b b win
+x o x o b b b b b b b b b b b b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+x o x b b b b b b b b b b b b b b b x o x o b b b b b b b b b b b b b b o b b b b b win
+x o o b b b b b b b b b b b b b b b x o x o b b b b b b b b b b b b b b x b b b b b win
+x o b b b b b b b b b b b b b b b b x o x o b b b b b b b b b b b b b b x o b b b b win
+x x o b b b b b b b b b b b b b b b x o x o b b b b b b b b b b b b b b o b b b b b win
+x x b b b b b b b b b b b b b b b b x o x o b b b b b b b b b b b b b b o o b b b b win
+x b b b b b b b b b b b b b b b b b x o x o o b b b b b b b b b b b b b o x b b b b win
+x b b b b b b b b b b b o b b b b b x o x o b b b b b b b b b b b b b b o x b b b b win
+x b b b b b b b b b b b b b b b b b x o x o b b o b b b b b b b b b b b o x b b b b win
+x b b b b b o b b b b b b b b b b b x o x o b b b b b b b b b b b b b b o x b b b b  loss
+x b b b b b b b b b b b b b b b b b x o x o b b b b b b b b o b b b b b o x b b b b win
+x o b b b b b b b b b b b b b b b b x o x o b b b b b b b b b b b b b b o x b b b b win
+x b b b b b b b b b b b b b b b b b x o x o b b b b b b b b b b b b b b o x o b b b win
+b b b b b b b b b b b b o o b b b b x o x x o x b b b b b b b b b b b b b b b b b b loss
+b b b b b b b b b b b b o b b b b b x o x x o x o b b b b b b b b b b b b b b b b b win
+b b b b b b o b b b b b o b b b b b x o x x o x b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o b b b b b x o x x o x b b b b b b o b b b b b b b b b b b win
+o b b b b b b b b b b b o b b b b b x o x x o x b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o b b b b b x o x x o x b b b b b b b b b b b b o b b b b b  loss
+b b b b b b b b b b b b o x b b b b x o x x o o b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o x o b b b x o x x o b b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o x b b b b x o x x o b o b b b b b b b b b b b b b b b b b win
+b b b b b b o b b b b b o x b b b b x o x x o b b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o x b b b b x o x x o b b b b b b b o b b b b b b b b b b b win
+o b b b b b b b b b b b o x b b b b x o x x o b b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o x b b b b x o x x o b b b b b b b b b b b b b o b b b b b win
+b b b b b b b b b b b b o b b b b b x o x x o o x b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o o b b b b x o x x o b x b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o b b b b b x o x x o b x o b b b b b b b b b b b b b b b b win
+b b b b b b o b b b b b o b b b b b x o x x o b x b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o b b b b b x o x x o b x b b b b b o b b b b b b b b b b b win
+o b b b b b b b b b b b o b b b b b x o x x o b x b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o b b b b b x o x x o b x b b b b b b b b b b b o b b b b b win
+b b b b b b x b b b b b o b b b b b x o x x o o b b b b b b b b b b b b b b b b b b win
+b b b b b b x b b b b b o o b b b b x o x x o b b b b b b b b b b b b b b b b b b b loss
+b b b b b b x b b b b b o b b b b b x o x x o b o b b b b b b b b b b b b b b b b b win
+b b b b b b x o b b b b o b b b b b x o x x o b b b b b b b b b b b b b b b b b b b win
+b b b b b b x b b b b b o b b b b b x o x x o b b b b b b b o b b b b b b b b b b b win
+o b b b b b x b b b b b o b b b b b x o x x o b b b b b b b b b b b b b b b b b b b win
+b b b b b b x b b b b b o b b b b b x o x x o b b b b b b b b b b b b b o b b b b b win
+b b b b b b b b b b b b o b b b b b x o x x o o b b b b b b x b b b b b b b b b b b win
+b b b b b b b b b b b b o o b b b b x o x x o b b b b b b b x b b b b b b b b b b b win
+b b b b b b o b b b b b o b b b b b x o x x o b b b b b b b x b b b b b b b b b b b win
+b b b b b b b b b b b b o b b b b b x o x x o b b b b b b b x o b b b b b b b b b b win
+o b b b b b b b b b b b o b b b b b x o x x o b b b b b b b x b b b b b b b b b b b win
+b b b b b b b b b b b b o b b b b b x o x x o b b b b b b b x b b b b b o b b b b b win
+x b b b b b b b b b b b o b b b b b x o x x o o b b b b b b b b b b b b b b b b b b win
+x b b b b b b b b b b b o o b b b b x o x x o b b b b b b b b b b b b b b b b b b b loss
+x b b b b b b b b b b b o b b b b b x o x x o b o b b b b b b b b b b b b b b b b b win
+x b b b b b o b b b b b o b b b b b x o x x o b b b b b b b b b b b b b b b b b b b win
+x b b b b b b b b b b b o b b b b b x o x x o b b b b b b b o b b b b b b b b b b b win
+x o b b b b b b b b b b o b b b b b x o x x o b b b b b b b b b b b b b b b b b b b win
+x b b b b b b b b b b b o b b b b b x o x x o b b b b b b b b b b b b b o b b b b b win
+b b b b b b b b b b b b o b b b b b x o x x o o b b b b b b b b b b b b x b b b b b win
+b b b b b b b b b b b b o o b b b b x o x x o b b b b b b b b b b b b b x b b b b b win
+b b b b b b o b b b b b o b b b b b x o x x o b b b b b b b b b b b b b x b b b b b win
+b b b b b b b b b b b b o b b b b b x o x x o b b b b b b b o b b b b b x b b b b b win
+o b b b b b b b b b b b o b b b b b x o x x o b b b b b b b b b b b b b x b b b b b win
+b b b b b b b b b b b b o b b b b b x o x x o b b b b b b b b b b b b b x o b b b b win
+b b b b b b b b b b b b o o b b b b x o x x x o b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o o x b b b x o x x o b b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o o x o b b x o x x b b b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o o x b b b x o x x b b o b b b b b b b b b b b b b b b b b win
+b b b b b b o b b b b b o o x b b b x o x x b b b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o o x b b b x o x x b b b b b b b b o b b b b b b b b b b b win
+b b b b b b o b b b b b o x b b b b x o x x b b b b b b b b o b b b b b b b b b b b win
+o b b b b b o b b b b b o x b b b b x o x x b b b b b b b b b b b b b b b b b b b b win
+b b b b b b o b b b b b o x b b b b x o x x b b b b b b b b b b b b b b o b b b b b win
+b b b b b b o b b b b b o b b b b b x o x x b b x o b b b b b b b b b b b b b b b b win
+b b b b b b o o b b b b o b b b b b x o x x b b x b b b b b b b b b b b b b b b b b win
+b b b b b b o b b b b b o b b b b b x o x x b b x b b b b b o b b b b b b b b b b b win
+o b b b b b o b b b b b o b b b b b x o x x b b x b b b b b b b b b b b b b b b b b win
+b b b b b b o b b b b b o b b b b b x o x x b b x b b b b b b b b b b b o b b b b b win
+b b b b b b o x b b b b o b b b b b x o x x o b b b b b b b b b b b b b b b b b b b win
+b b b b b b o x b b b b o o b b b b x o x x b b b b b b b b b b b b b b b b b b b b win
+b b b b b b o x b b b b o b b b b b x o x x b b o b b b b b b b b b b b b b b b b b win
+b b b b b b o x o b b b o b b b b b x o x x b b b b b b b b b b b b b b b b b b b b win
+b b b b b b o x b b b b o b b b b b x o x x b b b b b b b b o b b b b b b b b b b b win
+o b b b b b o x b b b b o b b b b b x o x x b b b b b b b b b b b b b b b b b b b b win
+b b b b b b o x b b b b o b b b b b x o x x b b b b b b b b b b b b b b o b b b b b win
+b b b b b b o o b b b b o b b b b b x o x x b b b b b b b b x b b b b b b b b b b b win
+b b b b b b o b b b b b o b b b b b x o x x b b b b b b b b x o b b b b b b b b b b win
+o b b b b b o b b b b b o b b b b b x o x x b b b b b b b b x b b b b b b b b b b b win
+b b b b b b o b b b b b o b b b b b x o x x b b b b b b b b x b b b b b o b b b b b win
+x b b b b b o o b b b b o b b b b b x o x x b b b b b b b b b b b b b b b b b b b b win
+x b b b b b o b b b b b o b b b b b x o x x b b b b b b b b o b b b b b b b b b b b win
+x o b b b b o b b b b b o b b b b b x o x x b b b b b b b b b b b b b b b b b b b b win
+x b b b b b o b b b b b o b b b b b x o x x b b b b b b b b b b b b b b o b b b b b win
+b b b b b b o o b b b b o b b b b b x o x x b b b b b b b b b b b b b b x b b b b b win
+b b b b b b o b b b b b o b b b b b x o x x b b b b b b b b o b b b b b x b b b b b win
+o b b b b b o b b b b b o b b b b b x o x x b b b b b b b b b b b b b b x b b b b b win
+b b b b b b o b b b b b o b b b b b x o x x b b b b b b b b b b b b b b x o b b b b win
+b b b b b b b b b b b b o b b b b b x o x x x o b b b b b b o b b b b b b b b b b b win
+b b b b b b b b b b b b o x o b b b x o x x b b b b b b b b o b b b b b b b b b b b win
+b b b b b b b b b b b b o x b b b b x o x x b b b b b b b b o o b b b b b b b b b b win
+o b b b b b b b b b b b o x b b b b x o x x b b b b b b b b o b b b b b b b b b b b win
+b b b b b b b b b b b b o x b b b b x o x x b b b b b b b b o b b b b b o b b b b b win
+b b b b b b b b b b b b o b b b b b x o x x b b x o b b b b o b b b b b b b b b b b win
+b b b b b b b b b b b b o b b b b b x o x x b b x b b b b b o o b b b b b b b b b b win
+o b b b b b b b b b b b o b b b b b x o x x b b x b b b b b o b b b b b b b b b b b win
+b b b b b b b b b b b b o b b b b b x o x x b b x b b b b b o b b b b b o b b b b b win
+b b b b b b x o b b b b o b b b b b x o x x b b b b b b b b o b b b b b b b b b b b win
+b b b b b b x b b b b b o b b b b b x o x x b b b b b b b b o o b b b b b b b b b b win
+o b b b b b x b b b b b o b b b b b x o x x b b b b b b b b o b b b b b b b b b b b win
+b b b b b b x b b b b b o b b b b b x o x x b b b b b b b b o b b b b b o b b b b b win
+b b b b b b b b b b b b o b b b b b x o x x o b b b b b b b o x b b b b b b b b b b win
+b b b b b b b b b b b b o o b b b b x o x x b b b b b b b b o x b b b b b b b b b b win
+b b b b b b o b b b b b o b b b b b x o x x b b b b b b b b o x b b b b b b b b b b win
+b b b b b b b b b b b b o b b b b b x o x x b b b b b b b b o x o b b b b b b b b b win
+o b b b b b b b b b b b o b b b b b x o x x b b b b b b b b o x b b b b b b b b b b win
+b b b b b b b b b b b b o b b b b b x o x x b b b b b b b b o x b b b b o b b b b b win
+x b b b b b b b b b b b o b b b b b x o x x b b b b b b b b o o b b b b b b b b b b win
+x o b b b b b b b b b b o b b b b b x o x x b b b b b b b b o b b b b b b b b b b b win
+x b b b b b b b b b b b o b b b b b x o x x b b b b b b b b o b b b b b o b b b b b win
+b b b b b b b b b b b b o b b b b b x o x x b b b b b b b b o o b b b b x b b b b b win
+o b b b b b b b b b b b o b b b b b x o x x b b b b b b b b o b b b b b x b b b b b win
+b b b b b b b b b b b b o b b b b b x o x x b b b b b b b b o b b b b b x o b b b b win
+o b b b b b b b b b b b o b b b b b x o x x x o b b b b b b b b b b b b b b b b b b win
+o b b b b b b b b b b b o x o b b b x o x x b b b b b b b b b b b b b b b b b b b b win
+o o b b b b b b b b b b o x b b b b x o x x b b b b b b b b b b b b b b b b b b b b win
+o b b b b b b b b b b b o x b b b b x o x x b b b b b b b b b b b b b b o b b b b b win
+o b b b b b b b b b b b o b b b b b x o x x b b x o b b b b b b b b b b b b b b b b win
+o o b b b b b b b b b b o b b b b b x o x x b b x b b b b b b b b b b b b b b b b b win
+o b b b b b b b b b b b o b b b b b x o x x b b x b b b b b b b b b b b o b b b b b win
+o b b b b b x o b b b b o b b b b b x o x x b b b b b b b b b b b b b b b b b b b b win
+o o b b b b x b b b b b o b b b b b x o x x b b b b b b b b b b b b b b b b b b b b win
+o b b b b b x b b b b b o b b b b b x o x x b b b b b b b b b b b b b b o b b b b b win
+o b b b b b b b b b b b o b b b b b x o x x b b b b b b b b x o b b b b b b b b b b win
+o o b b b b b b b b b b o b b b b b x o x x b b b b b b b b x b b b b b b b b b b b win
+o b b b b b b b b b b b o b b b b b x o x x b b b b b b b b x b b b b b o b b b b b win
+o x b b b b b b b b b b o b b b b b x o x x o b b b b b b b b b b b b b b b b b b b win
+o x b b b b b b b b b b o o b b b b x o x x b b b b b b b b b b b b b b b b b b b b win
+o x b b b b b b b b b b o b b b b b x o x x b b o b b b b b b b b b b b b b b b b b win
+o x b b b b o b b b b b o b b b b b x o x x b b b b b b b b b b b b b b b b b b b b win
+o x b b b b b b b b b b o b b b b b x o x x b b b b b b b b o b b b b b b b b b b b win
+o x o b b b b b b b b b o b b b b b x o x x b b b b b b b b b b b b b b b b b b b b win
+o x b b b b b b b b b b o b b b b b x o x x b b b b b b b b b b b b b b o b b b b b win
+o o b b b b b b b b b b o b b b b b x o x x b b b b b b b b b b b b b b x b b b b b win
+o b b b b b b b b b b b o b b b b b x o x x b b b b b b b b b b b b b b x o b b b b win
+b b b b b b b b b b b b o b b b b b x o x x x o b b b b b b b b b b b b o b b b b b win
+b b b b b b b b b b b b o x o b b b x o x x b b b b b b b b b b b b b b o b b b b b win
+b b b b b b b b b b b b o x b b b b x o x x b b b b b b b b b b b b b b o o b b b b win
+b b b b b b b b b b b b o b b b b b x o x x b b x o b b b b b b b b b b o b b b b b win
+b b b b b b b b b b b b o b b b b b x o x x b b x b b b b b b b b b b b o o b b b b win
+b b b b b b x o b b b b o b b b b b x o x x b b b b b b b b b b b b b b o b b b b b win
+b b b b b b x b b b b b o b b b b b x o x x b b b b b b b b b b b b b b o o b b b b win
+b b b b b b b b b b b b o b b b b b x o x x b b b b b b b b x o b b b b o b b b b b win
+b b b b b b b b b b b b o b b b b b x o x x b b b b b b b b x b b b b b o o b b b b win
+x o b b b b b b b b b b o b b b b b x o x x b b b b b b b b b b b b b b o b b b b b win
+x b b b b b b b b b b b o b b b b b x o x x b b b b b b b b b b b b b b o o b b b b win
+b b b b b b b b b b b b o b b b b b x o x x o b b b b b b b b b b b b b o x b b b b win
+b b b b b b b b b b b b o o b b b b x o x x b b b b b b b b b b b b b b o x b b b b loss
+b b b b b b o b b b b b o b b b b b x o x x b b b b b b b b b b b b b b o x b b b b win
+b b b b b b b b b b b b o b b b b b x o x x b b b b b b b b o b b b b b o x b b b b win
+o b b b b b b b b b b b o b b b b b x o x x b b b b b b b b b b b b b b o x b b b b win
+b b b b b b b b b b b b o b b b b b x o x x b b b b b b b b b b b b b b o x o b b b win
+b b b b b b b b b b b b o x x b b b x o x o o b b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o x x o b b x o x o b b b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o x x b b b x o x o b b o b b b b b b b b b b b b b b b b b win
+b b b b b b o b b b b b o x x b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o x x b b b x o x o b b b b b b b b o b b b b b b b b b b b win
+o b b b b b b b b b b b o x x b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o x x b b b x o x o b b b b b b b b b b b b b b o b b b b b win
+b b b b b b b b b b b b o x o o b b x o x x b b b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o x o x b b x o x o b b b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o x o x o b x o x b b b b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o x o x b b x o x b b b o b b b b b b b b b b b b b b b b b win
+b b b b b b o b b b b b o x o x b b x o x b b b b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o x o x b b x o x b b b b b b b b b o b b b b b b b b b b b win
+o b b b b b b b b b b b o x o x b b x o x b b b b b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o x o x b b x o x b b b b b b b b b b b b b b b o b b b b b win
+b b b b b b b b b b b b o x o o b b x o x b b b x b b b b b b b b b b b b b b b b b loss
+b b b b b b b b b b b b o x o b b b x o x b b b x o b b b b b b b b b b b b b b b b win
+b b b b b b o b b b b b o x o b b b x o x b b b x b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o x o b b b x o x b b b x b b b b b o b b b b b b b b b b b win
+o b b b b b b b b b b b o x o b b b x o x b b b x b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o x o b b b x o x b b b x b b b b b b b b b b b o b b b b b win
+b b b b b b x b b b b b o x o o b b x o x b b b b b b b b b b b b b b b b b b b b b loss
+b b b b b b x b b b b b o x o b b b x o x b b b o b b b b b b b b b b b b b b b b b win
+b b b b b b x o b b b b o x o b b b x o x b b b b b b b b b b b b b b b b b b b b b win
+b b b b b b x b b b b b o x o b b b x o x b b b b b b b b b o b b b b b b b b b b b win
+o b b b b b x b b b b b o x o b b b x o x b b b b b b b b b b b b b b b b b b b b b win
+b b b b b b x b b b b b o x o b b b x o x b b b b b b b b b b b b b b b o b b b b b loss
+b b b b b b b b b b b b o x o o b b x o x b b b b b b b b b x b b b b b b b b b b b loss
+b b b b b b b b b b b b o x o b b b x o x b b b o b b b b b x b b b b b b b b b b b win
+b b b b b b o b b b b b o x o b b b x o x b b b b b b b b b x b b b b b b b b b b b win
+b b b b b b b b b b b b o x o b b b x o x b b b b b b b b b x o b b b b b b b b b b win
+o b b b b b b b b b b b o x o b b b x o x b b b b b b b b b x b b b b b b b b b b b win
+b b b b b b b b b b b b o x o b b b x o x b b b b b b b b b x b b b b b o b b b b b win
+x b b b b b b b b b b b o x o o b b x o x b b b b b b b b b b b b b b b b b b b b b loss
+x b b b b b b b b b b b o x o b b b x o x b b b o b b b b b b b b b b b b b b b b b win
+x b b b b b o b b b b b o x o b b b x o x b b b b b b b b b b b b b b b b b b b b b win
+x b b b b b b b b b b b o x o b b b x o x b b b b b b b b b o b b b b b b b b b b b win
+x o b b b b b b b b b b o x o b b b x o x b b b b b b b b b b b b b b b b b b b b b win
+x b b b b b b b b b b b o x o b b b x o x b b b b b b b b b b b b b b b o b b b b b loss
+b b b b b b b b b b b b o x o o b b x o x b b b b b b b b b b b b b b b x b b b b b win
+b b b b b b b b b b b b o x o b b b x o x b b b o b b b b b b b b b b b x b b b b b win
+b b b b b b o b b b b b o x o b b b x o x b b b b b b b b b b b b b b b x b b b b b win
+b b b b b b b b b b b b o x o b b b x o x b b b b b b b b b o b b b b b x b b b b b win
+o b b b b b b b b b b b o x o b b b x o x b b b b b b b b b b b b b b b x b b b b b win
+b b b b b b b b b b b b o x o b b b x o x b b b b b b b b b b b b b b b x o b b b b win
+b b b b b b b b b b b b o x x o b b x o x b b b o b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o x x b b b x o x b b b o o b b b b b b b b b b b b b b b b win
+b b b b b b o b b b b b o x x b b b x o x b b b o b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o x x b b b x o x b b b o b b b b b o b b b b b b b b b b b win
+o b b b b b b b b b b b o x x b b b x o x b b b o b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o x x b b b x o x b b b o b b b b b b b b b b b o b b b b b win
+b b b b b b b b b b b b o x b b b b x o x o b b o x b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o x o b b b x o x b b b o x b b b b b b b b b b b b b b b b win
+b b b b b b o b b b b b o x b b b b x o x b b b o x b b b b b b b b b b b b b b b b win
+o b b b b b b b b b b b o x b b b b x o x b b b o x b b b b b b b b b b b b b b b b win
+b b b b b b x b b b b b o x b b b b x o x b b b o o b b b b b b b b b b b b b b b b win
+b b b b b b x o b b b b o x b b b b x o x b b b o b b b b b b b b b b b b b b b b b win
+b b b b b b x b b b b b o x b b b b x o x b b b o b b b b b o b b b b b b b b b b b win
+o b b b b b x b b b b b o x b b b b x o x b b b o b b b b b b b b b b b b b b b b b win
+b b b b b b x b b b b b o x b b b b x o x b b b o b b b b b b b b b b b o b b b b b win
+b b b b b b b b b b b b o x b b b b x o x b b b o o b b b b x b b b b b b b b b b b win
+b b b b b b o b b b b b o x b b b b x o x b b b o b b b b b x b b b b b b b b b b b win
+b b b b b b b b b b b b o x b b b b x o x b b b o b b b b b x o b b b b b b b b b b win
+o b b b b b b b b b b b o x b b b b x o x b b b o b b b b b x b b b b b b b b b b b win
+b b b b b b b b b b b b o x b b b b x o x b b b o b b b b b x b b b b b o b b b b b win
+x b b b b b b b b b b b o x b b b b x o x b b b o o b b b b b b b b b b b b b b b b win
+x b b b b b o b b b b b o x b b b b x o x b b b o b b b b b b b b b b b b b b b b b win
+x b b b b b b b b b b b o x b b b b x o x b b b o b b b b b o b b b b b b b b b b b win
+x o b b b b b b b b b b o x b b b b x o x b b b o b b b b b b b b b b b b b b b b b win
+x b b b b b b b b b b b o x b b b b x o x b b b o b b b b b b b b b b b o b b b b b win
+b b b b b b b b b b b b o x b b b b x o x b b b o o b b b b b b b b b b x b b b b b win
+b b b b b b o b b b b b o x b b b b x o x b b b o b b b b b b b b b b b x b b b b b win
+b b b b b b b b b b b b o x b b b b x o x b b b o b b b b b o b b b b b x b b b b b win
+o b b b b b b b b b b b o x b b b b x o x b b b o b b b b b b b b b b b x b b b b b win
+b b b b b b b b b b b b o x b b b b x o x b b b o b b b b b b b b b b b x o b b b b win
+b b b b b b o b b b b b o x x o b b x o x b b b b b b b b b b b b b b b b b b b b b win
+b b b b b b o o b b b b o x x b b b x o x b b b b b b b b b b b b b b b b b b b b b win
+b b b b b b o b b b b b o x x b b b x o x b b b b b b b b b o b b b b b b b b b b b win
+o b b b b b o b b b b b o x x b b b x o x b b b b b b b b b b b b b b b b b b b b b win
+b b b b b b o b b b b b o x x b b b x o x b b b b b b b b b b b b b b b o b b b b b win
+b b b b b b o b b b b b o x b b b b x o x b b b x o b b b b b b b b b b b b b b b b win
+b b b b b b o o b b b b o x b b b b x o x b b b x b b b b b b b b b b b b b b b b b win
+b b b b b b o b b b b b o x b b b b x o x b b b x b b b b b o b b b b b b b b b b b win
+o b b b b b o b b b b b o x b b b b x o x b b b x b b b b b b b b b b b b b b b b b win
+b b b b b b o b b b b b o x b b b b x o x b b b x b b b b b b b b b b b o b b b b b win
+b b b b b b o x b b b b o x b b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+b b b b b b o x b b b b o x o b b b x o x b b b b b b b b b b b b b b b b b b b b b loss
+b b b b b b o x b b b b o x b b b b x o x b b b o b b b b b b b b b b b b b b b b b win
+b b b b b b o x o b b b o x b b b b x o x b b b b b b b b b b b b b b b b b b b b b win
+b b b b b b o x b b b b o x b b b b x o x b b b b b b b b b o b b b b b b b b b b b win
+o b b b b b o x b b b b o x b b b b x o x b b b b b b b b b b b b b b b b b b b b b win
+b b b b b b o x b b b b o x b b b b x o x b b b b b b b b b b b b b b b o b b b b b win
+b b b b b b o o b b b b o x b b b b x o x b b b b b b b b b x b b b b b b b b b b b win
+b b b b b b o b b b b b o x b b b b x o x b b b b b b b b b x o b b b b b b b b b b win
+o b b b b b o b b b b b o x b b b b x o x b b b b b b b b b x b b b b b b b b b b b win
+b b b b b b o b b b b b o x b b b b x o x b b b b b b b b b x b b b b b o b b b b b win
+x b b b b b o o b b b b o x b b b b x o x b b b b b b b b b b b b b b b b b b b b b win
+x b b b b b o b b b b b o x b b b b x o x b b b b b b b b b o b b b b b b b b b b b win
+x o b b b b o b b b b b o x b b b b x o x b b b b b b b b b b b b b b b b b b b b b win
+x b b b b b o b b b b b o x b b b b x o x b b b b b b b b b b b b b b b o b b b b b win
+b b b b b b o o b b b b o x b b b b x o x b b b b b b b b b b b b b b b x b b b b b win
+b b b b b b o b b b b b o x b b b b x o x b b b b b b b b b o b b b b b x b b b b b win
+o b b b b b o b b b b b o x b b b b x o x b b b b b b b b b b b b b b b x b b b b b win
+b b b b b b o b b b b b o x b b b b x o x b b b b b b b b b b b b b b b x o b b b b win
+b b b b b b b b b b b b o x x o b b x o x b b b b b b b b b o b b b b b b b b b b b win
+b b b b b b b b b b b b o x x b b b x o x b b b b b b b b b o o b b b b b b b b b b win
+o b b b b b b b b b b b o x x b b b x o x b b b b b b b b b o b b b b b b b b b b b win
+b b b b b b b b b b b b o x x b b b x o x b b b b b b b b b o b b b b b o b b b b b win
+b b b b b b b b b b b b o x b b b b x o x b b b x o b b b b o b b b b b b b b b b b win
+b b b b b b b b b b b b o x b b b b x o x b b b x b b b b b o o b b b b b b b b b b win
+o b b b b b b b b b b b o x b b b b x o x b b b x b b b b b o b b b b b b b b b b b win
+b b b b b b b b b b b b o x b b b b x o x b b b x b b b b b o b b b b b o b b b b b win
+b b b b b b x o b b b b o x b b b b x o x b b b b b b b b b o b b b b b b b b b b b win
+b b b b b b x b b b b b o x b b b b x o x b b b b b b b b b o o b b b b b b b b b b win
+o b b b b b x b b b b b o x b b b b x o x b b b b b b b b b o b b b b b b b b b b b win
+b b b b b b x b b b b b o x b b b b x o x b b b b b b b b b o b b b b b o b b b b b win
+b b b b b b b b b b b b o x b b b b x o x o b b b b b b b b o x b b b b b b b b b b win
+b b b b b b b b b b b b o x o b b b x o x b b b b b b b b b o x b b b b b b b b b b win
+b b b b b b b b b b b b o x b b b b x o x b b b o b b b b b o x b b b b b b b b b b win
+b b b b b b o b b b b b o x b b b b x o x b b b b b b b b b o x b b b b b b b b b b win
+b b b b b b b b b b b b o x b b b b x o x b b b b b b b b b o x o b b b b b b b b b win
+o b b b b b b b b b b b o x b b b b x o x b b b b b b b b b o x b b b b b b b b b b win
+b b b b b b b b b b b b o x b b b b x o x b b b b b b b b b o x b b b b o b b b b b win
+x b b b b b b b b b b b o x b b b b x o x b b b b b b b b b o o b b b b b b b b b b win
+x o b b b b b b b b b b o x b b b b x o x b b b b b b b b b o b b b b b b b b b b b win
+x b b b b b b b b b b b o x b b b b x o x b b b b b b b b b o b b b b b o b b b b b win
+b b b b b b b b b b b b o x b b b b x o x b b b b b b b b b o o b b b b x b b b b b win
+o b b b b b b b b b b b o x b b b b x o x b b b b b b b b b o b b b b b x b b b b b win
+b b b b b b b b b b b b o x b b b b x o x b b b b b b b b b o b b b b b x o b b b b win
+o b b b b b b b b b b b o x x o b b x o x b b b b b b b b b b b b b b b b b b b b b win
+o o b b b b b b b b b b o x x b b b x o x b b b b b b b b b b b b b b b b b b b b b win
+o b b b b b b b b b b b o x x b b b x o x b b b b b b b b b b b b b b b o b b b b b win
+o b b b b b b b b b b b o x b b b b x o x b b b x o b b b b b b b b b b b b b b b b win
+o o b b b b b b b b b b o x b b b b x o x b b b x b b b b b b b b b b b b b b b b b win
+o b b b b b b b b b b b o x b b b b x o x b b b x b b b b b b b b b b b o b b b b b win
+o b b b b b x o b b b b o x b b b b x o x b b b b b b b b b b b b b b b b b b b b b win
+o o b b b b x b b b b b o x b b b b x o x b b b b b b b b b b b b b b b b b b b b b win
+o b b b b b x b b b b b o x b b b b x o x b b b b b b b b b b b b b b b o b b b b b win
+o b b b b b b b b b b b o x b b b b x o x b b b b b b b b b x o b b b b b b b b b b win
+o o b b b b b b b b b b o x b b b b x o x b b b b b b b b b x b b b b b b b b b b b win
+o b b b b b b b b b b b o x b b b b x o x b b b b b b b b b x b b b b b o b b b b b win
+o x b b b b b b b b b b o x b b b b x o x o b b b b b b b b b b b b b b b b b b b b win
+o x b b b b b b b b b b o x o b b b x o x b b b b b b b b b b b b b b b b b b b b b win
+o x b b b b b b b b b b o x b b b b x o x b b b o b b b b b b b b b b b b b b b b b win
+o x b b b b o b b b b b o x b b b b x o x b b b b b b b b b b b b b b b b b b b b b win
+o x b b b b b b b b b b o x b b b b x o x b b b b b b b b b o b b b b b b b b b b b win
+o x o b b b b b b b b b o x b b b b x o x b b b b b b b b b b b b b b b b b b b b b win
+o x b b b b b b b b b b o x b b b b x o x b b b b b b b b b b b b b b b o b b b b b win
+o o b b b b b b b b b b o x b b b b x o x b b b b b b b b b b b b b b b x b b b b b win
+o b b b b b b b b b b b o x b b b b x o x b b b b b b b b b b b b b b b x o b b b b win
+b b b b b b b b b b b b o x x o b b x o x b b b b b b b b b b b b b b b o b b b b b win
+b b b b b b b b b b b b o x x b b b x o x b b b b b b b b b b b b b b b o o b b b b win
+b b b b b b b b b b b b o x b b b b x o x b b b x o b b b b b b b b b b o b b b b b win
+b b b b b b b b b b b b o x b b b b x o x b b b x b b b b b b b b b b b o o b b b b win
+b b b b b b x o b b b b o x b b b b x o x b b b b b b b b b b b b b b b o b b b b b win
+b b b b b b x b b b b b o x b b b b x o x b b b b b b b b b b b b b b b o o b b b b win
+b b b b b b b b b b b b o x b b b b x o x b b b b b b b b b x o b b b b o b b b b b win
+b b b b b b b b b b b b o x b b b b x o x b b b b b b b b b x b b b b b o o b b b b win
+x o b b b b b b b b b b o x b b b b x o x b b b b b b b b b b b b b b b o b b b b b win
+x b b b b b b b b b b b o x b b b b x o x b b b b b b b b b b b b b b b o o b b b b win
+b b b b b b b b b b b b o x b b b b x o x o b b b b b b b b b b b b b b o x b b b b win
+b b b b b b b b b b b b o x o b b b x o x b b b b b b b b b b b b b b b o x b b b b win
+b b b b b b b b b b b b o x b b b b x o x b b b o b b b b b b b b b b b o x b b b b win
+b b b b b b o b b b b b o x b b b b x o x b b b b b b b b b b b b b b b o x b b b b win
+b b b b b b b b b b b b o x b b b b x o x b b b b b b b b b o b b b b b o x b b b b win
+o b b b b b b b b b b b o x b b b b x o x b b b b b b b b b b b b b b b o x b b b b win
+b b b b b b b b b b b b o x b b b b x o x b b b b b b b b b b b b b b b o x o b b b win
+b b b b b b b b b b b b o o x b b b x o x o b b x b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o o x o b b x o x b b b x b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o o x b b b x o x b b b x o b b b b b b b b b b b b b b b b loss
+b b b b b b o b b b b b o o x b b b x o x b b b x b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o o x b b b x o x b b b x b b b b b o b b b b b b b b b b b win
+o b b b b b b b b b b b o o x b b b x o x b b b x b b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o o x b b b x o x b b b x b b b b b b b b b b b o b b b b b win
+b b b b b b b b b b b b o o b b b b x o x b b b x x o b b b b b b b b b b b b b b b loss
+b b b b b b o b b b b b o o b b b b x o x b b b x x b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o o b b b b x o x b b b x x b b b b o b b b b b b b b b b b win
+o b b b b b b b b b b b o o b b b b x o x b b b x x b b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o o b b b b x o x b b b x x b b b b b b b b b b o b b b b b win
+b b b b b b x b b b b b o o b b b b x o x b b b x b b b b b o b b b b b b b b b b b loss
+o b b b b b x b b b b b o o b b b b x o x b b b x b b b b b b b b b b b b b b b b b loss
+b b b b b b x b b b b b o o b b b b x o x b b b x b b b b b b b b b b b o b b b b b win
+b b b b b b b b b b b b o o b b b b x o x b b b x b b b b b x b b b b b o b b b b b loss
+x b b b b b b b b b b b o o b b b b x o x b b b x o b b b b b b b b b b b b b b b b loss
+x b b b b b o b b b b b o o b b b b x o x b b b x b b b b b b b b b b b b b b b b b win
+x b b b b b b b b b b b o o b b b b x o x b b b x b b b b b o b b b b b b b b b b b loss
+x o b b b b b b b b b b o o b b b b x o x b b b x b b b b b b b b b b b b b b b b b loss
+x b b b b b b b b b b b o o b b b b x o x b b b x b b b b b b b b b b b o b b b b b loss
+b b b b b b b b b b b b o o b b b b x o x b b b x b b b b b o b b b b b x b b b b b loss
+b b b b b b b b b b b b o b b b b b x o x x b b x o o b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o x b b b b x o x b b b x o o b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o o b b b b x o x b b b x o x b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o b b b b b x o x b b b x o x o b b b b b b b b b b b b b b win
+b b b b b b o b b b b b o b b b b b x o x b b b x o x b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o b b b b b x o x b b b x o x b b b o b b b b b b b b b b b win
+o b b b b b b b b b b b o b b b b b x o x b b b x o x b b b b b b b b b b b b b b b win
+b b b b b b b b b b b b o b b b b b x o x b b b x o x b b b b b b b b b o b b b b b win
+b b b b b b x b b b b b o b b b b b x o x b b b x o o b b b b b b b b b b b b b b b loss
+b b b b b b x b b b b b o b b b b b x o x b b b x o b b b b o b b b b b b b b b b b win
+o b b b b b x b b b b b o b b b b b x o x b b b x o b b b b b b b b b b b b b b b b win
+b b b b b b x b b b b b o b b b b b x o x b b b x o b b b b b b b b b b o b b b b b win
+b b b b b b b b b b b b o b b b b b x o x b b b x o b b b b x b b b b b o b b b b b loss
+x b b b b b b b b b b b o b b b b b x o x b b b x o o b b b b b b b b b b b b b b b loss
+x b b b b b o b b b b b o b b b b b x o x b b b x o b b b b b b b b b b b b b b b b win
+x b b b b b b b b b b b o b b b b b x o x b b b x o b b b b o b b b b b b b b b b b win
+x o b b b b b b b b b b o b b b b b x o x b b b x o b b b b b b b b b b b b b b b b win
+x b b b b b b b b b b b o b b b b b x o x b b b x o b b b b b b b b b b o b b b b b loss
+b b b b b b b b b b b b o b b b b b x o x b b b x o b b b b o b b b b b x b b b b b win
+b b b b b b o b b b b b o b b b b b x o x b b b x x o b b b b b b b b b b b b b b b win
+b b b b b b o o b b b b o b b b b b x o x b b b x x b b b b b b b b b b b b b b b b win
+b b b b b b o b b b b b o b b b b b x o x b b b x x b b b b o b b b b b b b b b b b win
+o b b b b b o b b b b b o b b b b b x o x b b b x x b b b b b b b b b b b b b b b b win
+b b b b b b o b b b b b o b b b b b x o x b b b x x b b b b b b b b b b o b b b b b win
+b b b b b b o x b b b b o o b b b b x o x b b b x b b b b b b b b b b b b b b b b b win
+b b b b b b o x b b b b o b b b b b x o x b b b x o b b b b b b b b b b b b b b b b win
+b b b b b b o x o b b b o b b b b b x o x b b b x b b b b b b b b b b b b b b b b b win
+b b b b b b o x b b b b o b b b b b x o x b b b x b b b b b o b b b b b b b b b b b win
+o b b b b b o x b b b b o b b b b b x o x b b b x b b b b b b b b b b b b b b b b b win
+b b b b b b o x b b b b o b b b b b x o x b b b x b b b b b b b b b b b o b b b b b win
+b b b b b b o b b b b b o b b b b b x o x b b b x b b b b b x b b b b b o b b b b b win
+x b b b b b o o b b b b o b b b b b x o x b b b x b b b b b b b b b b b b b b b b b win
+x b b b b b o b b b b b o b b b b b x o x b b b x b b b b b o b b b b b b b b b b b win
+x o b b b b o b b b b b o b b b b b x o x b b b x b b b b b b b b b b b b b b b b b win
+x b b b b b o b b b b b o b b b b b x o x b b b x b b b b b b b b b b b o b b b b b win
+b b b b b b o b b b b b o b b b b b x o x b b b x b b b b b o b b b b b x b b b b b win
+b b b b b b b b b b b b o b b b b b x o x b b b x x o b b b o b b b b b b b b b b b win
+b b b b b b b b b b b b o b b b b b x o x b b b x x b b b b o o b b b b b b b b b b win
+o b b b b b b b b b b b o b b b b b x o x b b b x x b b b b o b b b b b b b b b b b win
+b b b b b b b b b b b b o b b b b b x o x b b b x x b b b b o b b b b b o b b b b b win
+b b b b b b x o b b b b o b b b b b x o x b b b x b b b b b o b b b b b b b b b b b win
+b b b b b b x b b b b b o b b b b b x o x b b b x b b b b b o o b b b b b b b b b b win
+o b b b b b x b b b b b o b b b b b x o x b b b x b b b b b o b b b b b b b b b b b win
+b b b b b b x b b b b b o b b b b b x o x b b b x b b b b b o b b b b b o b b b b b win
+b b b b b b b b b b b b o o b b b b x o x b b b x b b b b b o x b b b b b b b b b b win
+b b b b b b b b b b b b o b b b b b x o x b b b x o b b b b o x b b b b b b b b b b win
+b b b b b b o b b b b b o b b b b b x o x b b b x b b b b b o x b b b b b b b b b b win
+b b b b b b b b b b b b o b b b b b x o x b b b x b b b b b o x o b b b b b b b b b win
+o b b b b b b b b b b b o b b b b b x o x b b b x b b b b b o x b b b b b b b b b b win
+b b b b b b b b b b b b o b b b b b x o x b b b x b b b b b o x b b b b o b b b b b win
+x b b b b b b b b b b b o b b b b b x o x b b b x b b b b b o o b b b b b b b b b b win
+x o b b b b b b b b b b o b b b b b x o x b b b x b b b b b o b b b b b b b b b b b win
+x b b b b b b b b b b b o b b b b b x o x b b b x b b b b b o b b b b b o b b b b b win
+b b b b b b b b b b b b o b b b b b x o x b b b x b b b b b o o b b b b x b b b b b loss
+o b b b b b b b b b b b o b b b b b x o x b b b x b b b b b o b b b b b x b b b b b win
+b b b b b b b b b b b b o b b b b b x o x b b b x b b b b b o b b b b b x o b b b b win
+o b b b b b b b b b b b o b b b b b x o x b b b x x o b b b b b b b b b b b b b b b win
+o o b b b b b b b b b b o b b b b b x o x b b b x x b b b b b b b b b b b b b b b b win
+o b b b b b b b b b b b o b b b b b x o x b b b x x b b b b b b b b b b o b b b b b win
+o b b b b b x o b b b b o b b b b b x o x b b b x b b b b b b b b b b b b b b b b b win
+o o b b b b x b b b b b o b b b b b x o x b b b x b b b b b b b b b b b b b b b b b win
+o b b b b b x b b b b b o b b b b b x o x b b b x b b b b b b b b b b b o b b b b b win
+o b b b b b b b b b b b o b b b b b x o x b b b x b b b b b x b b b b b o b b b b b win
+o x b b b b b b b b b b o o b b b b x o x b b b x b b b b b b b b b b b b b b b b b win
+o x b b b b b b b b b b o b b b b b x o x b b b x o b b b b b b b b b b b b b b b b win
+o x b b b b o b b b b b o b b b b b x o x b b b x b b b b b b b b b b b b b b b b b win
+o x b b b b b b b b b b o b b b b b x o x b b b x b b b b b o b b b b b b b b b b b win
+o x o b b b b b b b b b o b b b b b x o x b b b x b b b b b b b b b b b b b b b b b win
+o x b b b b b b b b b b o b b b b b x o x b b b x b b b b b b b b b b b o b b b b b win
+b b b b b b b b b b b b o b b b b b x o x b b b x x o b b b b b b b b b o b b b b b win
+b b b b b b b b b b b b o b b b b b x o x b b b x x b b b b b b b b b b o o b b b b win
+b b b b b b x o b b b b o b b b b b x o x b b b x b b b b b b b b b b b o b b b b b win
+b b b b b b x b b b b b o b b b b b x o x b b b x b b b b b b b b b b b o o b b b b win
+b b b b b b b b b b b b o b b b b b x o x b b b x b b b b b x o b b b b o b b b b b loss
+b b b b b b b b b b b b o b b b b b x o x b b b x b b b b b x b b b b b o o b b b b win
+x o b b b b b b b b b b o b b b b b x o x b b b x b b b b b b b b b b b o b b b b b win
+x b b b b b b b b b b b o b b b b b x o x b b b x b b b b b b b b b b b o o b b b b win
+b b b b b b b b b b b b o o b b b b x o x b b b x b b b b b b b b b b b o x b b b b loss
+b b b b b b b b b b b b o b b b b b x o x b b b x o b b b b b b b b b b o x b b b b win
+b b b b b b o b b b b b o b b b b b x o x b b b x b b b b b b b b b b b o x b b b b win
+b b b b b b b b b b b b o b b b b b x o x b b b x b b b b b o b b b b b o x b b b b win
+o b b b b b b b b b b b o b b b b b x o x b b b x b b b b b b b b b b b o x b b b b win
+b b b b b b b b b b b b o b b b b b x o x b b b x b b b b b b b b b b b o x o b b b win
+b b b b b b x b b b b b o o x b b b x o x o b b b b b b b b b b b b b b b b b b b b loss
+b b b b b b x b b b b b o o x o b b x o x b b b b b b b b b b b b b b b b b b b b b win
+b b b b b b x b b b b b o o x b b b x o x b b b o b b b b b b b b b b b b b b b b b win
+b b b b b b x o b b b b o o x b b b x o x b b b b b b b b b b b b b b b b b b b b b loss
+b b b b b b x b b b b b o o x b b b x o x b b b b b b b b b o b b b b b b b b b b b win
+o b b b b b x b b b b b o o x b b b x o x b b b b b b b b b b b b b b b b b b b b b win
+b b b b b b x b b b b b o o x b b b x o x b b b b b b b b b b b b b b b o b b b b b win
+b b b b b b x x b b b b o o b b b b x o x b b b o b b b b b b b b b b b b b b b b b win
+b b b b b b x x o b b b o o b b b b x o x b b b b b b b b b b b b b b b b b b b b b loss
+b b b b b b x x b b b b o o b b b b x o x b b b b b b b b b o b b b b b b b b b b b win
+o b b b b b x x b b b b o o b b b b x o x b b b b b b b b b b b b b b b b b b b b b win
+b b b b b b x x b b b b o o b b b b x o x b b b b b b b b b b b b b b b o b b b b b win
+b b b b b b x b b b b b o o b b b b x o x b b b o b b b b b x b b b b b b b b b b b loss
+b b b b b b x o b b b b o o b b b b x o x b b b b b b b b b x b b b b b b b b b b b loss
+b b b b b b x b b b b b o o b b b b x o x b b b b b b b b b x o b b b b b b b b b b loss
+o b b b b b x b b b b b o o b b b b x o x b b b b b b b b b x b b b b b b b b b b b win
+b b b b b b x b b b b b o o b b b b x o x b b b b b b b b b x b b b b b o b b b b b loss
+x b b b b b x b b b b b o o b b b b x o x b b b o b b b b b b b b b b b b b b b b b win
+x b b b b b x b b b b b o o b b b b x o x b b b b b b b b b o b b b b b b b b b b b loss
+x b b b b b x b b b b b o o b b b b x o x b b b b b b b b b b b b b b b o b b b b b loss
+b b b b b b x b b b b b o o b b b b x o x b b b o b b b b b b b b b b b x b b b b b win
+b b b b b b x o b b b b o o b b b b x o x b b b b b b b b b b b b b b b x b b b b b loss
+b b b b b b x b b b b b o o b b b b x o x b b b b b b b b b o b b b b b x b b b b b loss
+o b b b b b x b b b b b o o b b b b x o x b b b b b b b b b b b b b b b x b b b b b win
+b b b b b b x b b b b b o o b b b b x o x b b b b b b b b b b b b b b b x o b b b b win
+b b b b b b x x b b b b o b b b b b x o x b b b o o b b b b b b b b b b b b b b b b win
+b b b b b b x x o b b b o b b b b b x o x b b b o b b b b b b b b b b b b b b b b b win
+b b b b b b x x b b b b o b b b b b x o x b b b o b b b b b o b b b b b b b b b b b win
+o b b b b b x x b b b b o b b b b b x o x b b b o b b b b b b b b b b b b b b b b b win
+b b b b b b x x b b b b o b b b b b x o x b b b o b b b b b b b b b b b o b b b b b win
+b b b b b b x o b b b b o b b b b b x o x b b b o b b b b b x b b b b b b b b b b b win
+o b b b b b x b b b b b o b b b b b x o x b b b o b b b b b x b b b b b b b b b b b win
+x b b b b b x b b b b b o b b b b b x o x b b b o o b b b b b b b b b b b b b b b b win
+x b b b b b x o b b b b o b b b b b x o x b b b o b b b b b b b b b b b b b b b b b win
+x b b b b b x b b b b b o b b b b b x o x b b b o b b b b b o b b b b b b b b b b b win
+x o b b b b x b b b b b o b b b b b x o x b b b o b b b b b b b b b b b b b b b b b win
+x b b b b b x b b b b b o b b b b b x o x b b b o b b b b b b b b b b b o b b b b b win
+b b b b b b x b b b b b o b b b b b x o x b b b o o b b b b b b b b b b x b b b b b win
+b b b b b b x o b b b b o b b b b b x o x b b b o b b b b b b b b b b b x b b b b b win
+b b b b b b x b b b b b o b b b b b x o x b b b o b b b b b o b b b b b x b b b b b win
+o b b b b b x b b b b b o b b b b b x o x b b b o b b b b b b b b b b b x b b b b b win
+b b b b b b x b b b b b o b b b b b x o x b b b o b b b b b b b b b b b x o b b b b win
+b b b b b b x o o b b b o b b b b b x o x x b b b b b b b b b b b b b b b b b b b b win
+b b b b b b x o o b b b o x b b b b x o x b b b b b b b b b b b b b b b b b b b b b win
+b b b b b b x o o b b b o b b b b b x o x b b b x b b b b b b b b b b b b b b b b b win
+b b b b b b x o x b b b o o b b b b x o x b b b b b b b b b b b b b b b b b b b b b loss
+b b b b b b x o x b b b o b b b b b x o x b b b o b b b b b b b b b b b b b b b b b win
+b b b b b b x o x o b b o b b b b b x o x b b b b b b b b b b b b b b b b b b b b b loss
+b b b b b b x o x b b b o b b b b b x o x b b b b b b b b b o b b b b b b b b b b b win
+o b b b b b x o x b b b o b b b b b x o x b b b b b b b b b b b b b b b b b b b b b win
+b b b b b b x o x b b b o b b b b b x o x b b b b b b b b b b b b b b b o b b b b b loss
+b b b b b b x o o b b b o b b b b b x o x b b b b b b b b b x b b b b b b b b b b b loss
+b b b b b b x o b b b b o b b b b b x o x b b b b b b b b b x o b b b b b b b b b b loss
+o b b b b b x o b b b b o b b b b b x o x b b b b b b b b b x b b b b b b b b b b b win
+b b b b b b x o b b b b o b b b b b x o x b b b b b b b b b x b b b b b o b b b b b loss
+x b b b b b x o o b b b o b b b b b x o x b b b b b b b b b b b b b b b b b b b b b loss
+x b b b b b x o b b b b o b b b b b x o x b b b b b b b b b o b b b b b b b b b b b loss
+x b b b b b x o b b b b o b b b b b x o x b b b b b b b b b b b b b b b o b b b b b loss
+b b b b b b x o o b b b o b b b b b x o x b b b b b b b b b b b b b b b x b b b b b win
+b b b b b b x o b b b b o b b b b b x o x b b b b b b b b b o b b b b b x b b b b b win
+o b b b b b x o b b b b o b b b b b x o x b b b b b b b b b b b b b b b x b b b b b win
+b b b b b b x o b b b b o b b b b b x o x b b b b b b b b b b b b b b b x o b b b b win
+b b b b b b x x o b b b o b b b b b x o x b b b b b b b b b o b b b b b b b b b b b win
+b b b b b b x x b b b b o b b b b b x o x b b b b b b b b b o o b b b b b b b b b b win
+o b b b b b x x b b b b o b b b b b x o x b b b b b b b b b o b b b b b b b b b b b win
+b b b b b b x x b b b b o b b b b b x o x b b b b b b b b b o b b b b b o b b b b b win
+b b b b b b x b b b b b o o b b b b x o x b b b b b b b b b o x b b b b b b b b b b loss
+b b b b b b x b b b b b o b b b b b x o x b b b o b b b b b o x b b b b b b b b b b win
+b b b b b b x o b b b b o b b b b b x o x b b b b b b b b b o x b b b b b b b b b b win
+b b b b b b x b b b b b o b b b b b x o x b b b b b b b b b o x o b b b b b b b b b win
+o b b b b b x b b b b b o b b b b b x o x b b b b b b b b b o x b b b b b b b b b b win
+b b b b b b x b b b b b o b b b b b x o x b b b b b b b b b o x b b b b o b b b b b win
+x b b b b b x b b b b b o b b b b b x o x b b b b b b b b b o o b b b b b b b b b b win
+x o b b b b x b b b b b o b b b b b x o x b b b b b b b b b o b b b b b b b b b b b win
+x b b b b b x b b b b b o b b b b b x o x b b b b b b b b b o b b b b b o b b b b b win
+b b b b b b x b b b b b o b b b b b x o x b b b b b b b b b o o b b b b x b b b b b loss
+o b b b b b x b b b b b o b b b b b x o x b b b b b b b b b o b b b b b x b b b b b win
+b b b b b b x b b b b b o b b b b b x o x b b b b b b b b b o b b b b b x o b b b b loss
+o b b b b b x x o b b b o b b b b b x o x b b b b b b b b b b b b b b b b b b b b b win
+o o b b b b x x b b b b o b b b b b x o x b b b b b b b b b b b b b b b b b b b b b win
+o b b b b b x x b b b b o b b b b b x o x b b b b b b b b b b b b b b b o b b b b b win
+o b b b b b x b b b b b o b b b b b x o x b b b b b b b b b x o b b b b b b b b b b win
+o o b b b b x b b b b b o b b b b b x o x b b b b b b b b b x b b b b b b b b b b b win
+o b b b b b x b b b b b o b b b b b x o x b b b b b b b b b x b b b b b o b b b b b win
+o x b b b b x b b b b b o o b b b b x o x b b b b b b b b b b b b b b b b b b b b b win
+o x b b b b x b b b b b o b b b b b x o x b b b o b b b b b b b b b b b b b b b b b win
+o x b b b b x o b b b b o b b b b b x o x b b b b b b b b b b b b b b b b b b b b b win
+o x b b b b x b b b b b o b b b b b x o x b b b b b b b b b o b b b b b b b b b b b win
+o x o b b b x b b b b b o b b b b b x o x b b b b b b b b b b b b b b b b b b b b b win
+o x b b b b x b b b b b o b b b b b x o x b b b b b b b b b b b b b b b o b b b b b win
+o o b b b b x b b b b b o b b b b b x o x b b b b b b b b b b b b b b b x b b b b b win
+o b b b b b x b b b b b o b b b b b x o x b b b b b b b b b b b b b b b x o b b b b win
+b b b b b b x x o b b b o b b b b b x o x b b b b b b b b b b b b b b b o b b b b b win
+b b b b b b x x b b b b o b b b b b x o x b b b b b b b b b b b b b b b o o b b b b win
+b b b b b b x b b b b b o b b b b b x o x b b b b b b b b b x o b b b b o b b b b b loss
+b b b b b b x b b b b b o b b b b b x o x b b b b b b b b b x b b b b b o o b b b b loss
+x o b b b b x b b b b b o b b b b b x o x b b b b b b b b b b b b b b b o b b b b b win
+x b b b b b x b b b b b o b b b b b x o x b b b b b b b b b b b b b b b o o b b b b win
+b b b b b b x b b b b b o o b b b b x o x b b b b b b b b b b b b b b b o x b b b b loss
+b b b b b b x b b b b b o b b b b b x o x b b b o b b b b b b b b b b b o x b b b b win
+b b b b b b x o b b b b o b b b b b x o x b b b b b b b b b b b b b b b o x b b b b win
+b b b b b b x b b b b b o b b b b b x o x b b b b b b b b b o b b b b b o x b b b b win
+o b b b b b x b b b b b o b b b b b x o x b b b b b b b b b b b b b b b o x b b b b win
+b b b b b b x b b b b b o b b b b b x o x b b b b b b b b b b b b b b b o x o b b b win
+b b b b b b b b b b b b o o x b b b x o x o b b b b b b b b x b b b b b b b b b b b win
+b b b b b b b b b b b b o o x o b b x o x b b b b b b b b b x b b b b b b b b b b b win
+b b b b b b b b b b b b o o x b b b x o x b b b o b b b b b x b b b b b b b b b b b win
+b b b b b b o b b b b b o o x b b b x o x b b b b b b b b b x b b b b b b b b b b b win
+b b b b b b b b b b b b o o x b b b x o x b b b b b b b b b x o b b b b b b b b b b win
+o b b b b b b b b b b b o o x b b b x o x b b b b b b b b b x b b b b b b b b b b b win
+b b b b b b b b b b b b o o x b b b x o x b b b b b b b b b x b b b b b o b b b b b win
+b b b b b b o b b b b b o o b b b b x o x b b b b b b b b b x x b b b b b b b b b b win
+b b b b b b b b b b b b o o b b b b x o x b b b b b b b b b x x o b b b b b b b b b win
+o b b b b b b b b b b b o o b b b b x o x b b b b b b b b b x x b b b b b b b b b b win
+b b b b b b b b b b b b o o b b b b x o x b b b b b b b b b x x b b b b o b b b b b win
+x b b b b b o b b b b b o o b b b b x o x b b b b b b b b b x b b b b b b b b b b b win
+x b b b b b b b b b b b o o b b b b x o x b b b b b b b b b x o b b b b b b b b b b loss
+x o b b b b b b b b b b o o b b b b x o x b b b b b b b b b x b b b b b b b b b b b win
+x b b b b b b b b b b b o o b b b b x o x b b b b b b b b b x b b b b b o b b b b b loss
+b b b b b b o x b b b b o o b b b b x o x b b b b b b b b b x b b b b b b b b b b b win
+b b b b b b o x o b b b o b b b b b x o x b b b b b b b b b x b b b b b b b b b b b win
+b b b b b b o x b b b b o b b b b b x o x b b b b b b b b b x o b b b b b b b b b b win
+o b b b b b o x b b b b o b b b b b x o x b b b b b b b b b x b b b b b b b b b b b win
+b b b b b b o x b b b b o b b b b b x o x b b b b b b b b b x b b b b b o b b b b b win
+b b b b b b o o b b b b o b b b b b x o x b b b b b b b b b x x b b b b b b b b b b win
+b b b b b b o b b b b b o b b b b b x o x b b b b b b b b b x x o b b b b b b b b b win
+o b b b b b o b b b b b o b b b b b x o x b b b b b b b b b x x b b b b b b b b b b win
+b b b b b b o b b b b b o b b b b b x o x b b b b b b b b b x x b b b b o b b b b b win
+x b b b b b o o b b b b o b b b b b x o x b b b b b b b b b x b b b b b b b b b b b win
+x b b b b b o b b b b b o b b b b b x o x b b b b b b b b b x o b b b b b b b b b b win
+x o b b b b o b b b b b o b b b b b x o x b b b b b b b b b x b b b b b b b b b b b win
+x b b b b b o b b b b b o b b b b b x o x b b b b b b b b b x b b b b b o b b b b b win
+b b b b b b b b b b b b o b b b b b x o x x b b b b b b b b x o o b b b b b b b b b win
+b b b b b b b b b b b b o x b b b b x o x b b b b b b b b b x o o b b b b b b b b b win
+b b b b b b x b b b b b o b b b b b x o x b b b b b b b b b x o o b b b b b b b b b loss
+b b b b b b b b b b b b o o b b b b x o x b b b b b b b b b x o x b b b b b b b b b win
+b b b b b b o b b b b b o b b b b b x o x b b b b b b b b b x o x b b b b b b b b b win
+b b b b b b b b b b b b o b b b b b x o x b b b b b b b b b x o x o b b b b b b b b loss
+o b b b b b b b b b b b o b b b b b x o x b b b b b b b b b x o x b b b b b b b b b win
+b b b b b b b b b b b b o b b b b b x o x b b b b b b b b b x o x b b b o b b b b b loss
+x b b b b b b b b b b b o b b b b b x o x b b b b b b b b b x o o b b b b b b b b b loss
+x o b b b b b b b b b b o b b b b b x o x b b b b b b b b b x o b b b b b b b b b b win
+x b b b b b b b b b b b o b b b b b x o x b b b b b b b b b x o b b b b o b b b b b loss
+o b b b b b b b b b b b o b b b b b x o x b b b b b b b b b x x o b b b b b b b b b win
+o o b b b b b b b b b b o b b b b b x o x b b b b b b b b b x x b b b b b b b b b b win
+o b b b b b b b b b b b o b b b b b x o x b b b b b b b b b x x b b b b o b b b b b win
+o x b b b b b b b b b b o o b b b b x o x b b b b b b b b b x b b b b b b b b b b b win
+o x b b b b o b b b b b o b b b b b x o x b b b b b b b b b x b b b b b b b b b b b win
+o x b b b b b b b b b b o b b b b b x o x b b b b b b b b b x o b b b b b b b b b b win
+o x o b b b b b b b b b o b b b b b x o x b b b b b b b b b x b b b b b b b b b b b win
+o x b b b b b b b b b b o b b b b b x o x b b b b b b b b b x b b b b b o b b b b b win
+b b b b b b b b b b b b o b b b b b x o x b b b b b b b b b x x o b b b o b b b b b win
+b b b b b b b b b b b b o b b b b b x o x b b b b b b b b b x x b b b b o o b b b b win
+x o b b b b b b b b b b o b b b b b x o x b b b b b b b b b x b b b b b o b b b b b win
+x b b b b b b b b b b b o b b b b b x o x b b b b b b b b b x b b b b b o o b b b b win
+b b b b b b b b b b b b o o b b b b x o x b b b b b b b b b x b b b b b o x b b b b loss
+b b b b b b o b b b b b o b b b b b x o x b b b b b b b b b x b b b b b o x b b b b win
+b b b b b b b b b b b b o b b b b b x o x b b b b b b b b b x o b b b b o x b b b b loss
+o b b b b b b b b b b b o b b b b b x o x b b b b b b b b b x b b b b b o x b b b b win
+b b b b b b b b b b b b o b b b b b x o x b b b b b b b b b x b b b b b o x o b b b win
+x b b b b b b b b b b b o o x b b b x o x o b b b b b b b b b b b b b b b b b b b b loss
+x b b b b b b b b b b b o o x o b b x o x b b b b b b b b b b b b b b b b b b b b b loss
+x b b b b b b b b b b b o o x b b b x o x b b b o b b b b b b b b b b b b b b b b b win
+x b b b b b o b b b b b o o x b b b x o x b b b b b b b b b b b b b b b b b b b b b win
+x b b b b b b b b b b b o o x b b b x o x b b b b b b b b b o b b b b b b b b b b b win
+x o b b b b b b b b b b o o x b b b x o x b b b b b b b b b b b b b b b b b b b b b loss
+x b b b b b b b b b b b o o x b b b x o x b b b b b b b b b b b b b b b o b b b b b win
+x x b b b b b b b b b b o o b b b b x o x b b b o b b b b b b b b b b b b b b b b b win
+x x b b b b o b b b b b o o b b b b x o x b b b b b b b b b b b b b b b b b b b b b win
+x x b b b b b b b b b b o o b b b b x o x b b b b b b b b b o b b b b b b b b b b b win
+x x o b b b b b b b b b o o b b b b x o x b b b b b b b b b b b b b b b b b b b b b loss
+x x b b b b b b b b b b o o b b b b x o x b b b b b b b b b b b b b b b o b b b b b win
+x b b b b b b b b b b b o o b b b b x o x b b b o b b b b b b b b b b b x b b b b b loss
+x b b b b b o b b b b b o o b b b b x o x b b b b b b b b b b b b b b b x b b b b b win
+x b b b b b b b b b b b o o b b b b x o x b b b b b b b b b o b b b b b x b b b b b win
+x o b b b b b b b b b b o o b b b b x o x b b b b b b b b b b b b b b b x b b b b b win
+x b b b b b b b b b b b o o b b b b x o x b b b b b b b b b b b b b b b x o b b b b win
+x x b b b b b b b b b b o b b b b b x o x b b b o o b b b b b b b b b b b b b b b b loss
+x x b b b b o b b b b b o b b b b b x o x b b b o b b b b b b b b b b b b b b b b b win
+x x b b b b b b b b b b o b b b b b x o x b b b o b b b b b o b b b b b b b b b b b win
+x x o b b b b b b b b b o b b b b b x o x b b b o b b b b b b b b b b b b b b b b b win
+x x b b b b b b b b b b o b b b b b x o x b b b o b b b b b b b b b b b o b b b b b win
+x b b b b b o b b b b b o b b b b b x o x b b b o b b b b b b b b b b b x b b b b b win
+x o b b b b b b b b b b o b b b b b x o x b b b o b b b b b b b b b b b x b b b b b win
+x b b b b b o x b b b b o o b b b b x o x b b b b b b b b b b b b b b b b b b b b b win
+x b b b b b o x b b b b o b b b b b x o x b b b o b b b b b b b b b b b b b b b b b win
+x b b b b b o x o b b b o b b b b b x o x b b b b b b b b b b b b b b b b b b b b b win

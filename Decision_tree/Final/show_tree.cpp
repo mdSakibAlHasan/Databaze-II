@@ -2,15 +2,17 @@
 #include <vector>
 using namespace std;
 
-#define MAX 80
-#define COL 8
-#define MAX_DATA 150
+#define MAX 500
+#define COL 42
+#define MAX_DATA 1000
+#define START 600
 struct row_info
 {
     string class_name;
-    string attribute_info[8];
+    string attribute_info[42];
 };
-row_info values[250];
+row_info values[MAX_DATA], all_values[MAX_DATA];
+int rand_col[5][42] = {0}, tree_index = 0;
 
 struct node
 {
@@ -84,6 +86,8 @@ void calculate_gain_value(node *row_information)
 
     for (int i = 0; i < COL; i++)
     {
+        if (rand_col[tree_index][i] == 1)
+            continue;
         for (int p = 0; p < row_information->row.size(); p++) // attribute unique value
         {
             attribute_value.insert(row_information->row[p].attribute_info[i]);
@@ -218,7 +222,43 @@ struct node *create_tree()
     return root;
 }
 
-void load_data()
+void create_random_col()
+{
+    srand(1209);
+    for (int i = 0; i < 5; i++)
+    {
+        for (int j = 0; j < 10; j++)
+        {
+            int temp = rand() % 42;
+            rand_col[i][temp] = 1;
+        }
+    }
+
+    // for (int i = 0; i < 5; i++)
+    // {
+    //     for (int j = 0; j < 42; j++)
+    //     {
+    //         cout << rand_col[i][j] << " ";
+    //     }
+    //     cout << endl;
+    // }
+}
+
+void load_data(int seed)
+{
+    shuffle(all_values, all_values + START, default_random_engine(seed));
+    for (int i = 0; i < MAX_DATA; i++)
+    {
+
+        for (int k = 0; k < COL; k++)
+        {
+            values[i].attribute_info[k] = all_values[i].attribute_info[k];
+        }
+        values[i].class_name = all_values[i].class_name;
+    }
+}
+
+void load_all_data()
 {
     char temp;
     int a, b, c;
@@ -226,11 +266,11 @@ void load_data()
     for (int i = 0; i < MAX_DATA; i++)
     {
 
-        for (int k = 0; k < 8; k++)
+        for (int k = 0; k < 42; k++)
         {
-            myFile >> values[i].attribute_info[k];
+            myFile >> all_values[i].attribute_info[k];
         }
-        myFile >> values[i].class_name;
+        myFile >> all_values[i].class_name;
     }
 
     // for (int i = 0; i < MAX_DATA; i++)
@@ -243,7 +283,7 @@ void load_data()
     //     cout << values[i].class_name << endl;
     // }
 
-    // shuffle(values, values + 625, default_random_engine(120));
+    shuffle(all_values, all_values + MAX_DATA, default_random_engine(120));
 }
 
 string find_decision(node *level_data, row_info test_data)
@@ -327,18 +367,42 @@ void print_tree(node *root)
 
 int main()
 {
-    load_data();
-    node *root = create_tree();
-    cout << " root: " << root << endl;
-    cout << "Total:  " << counter2 << endl;
-    int match = 0, disMatch = 0;
-    for (int i = MAX; i < MAX_DATA; i++)
+    node **roots = new node *[5];
+    create_random_col();
+    load_all_data();
+    // load_data();
+    for (int i = 0; i < 5; i++)
     {
-        if (testing(root, values[i]))
+        load_data(i);
+        roots[i] = create_tree();
+        cout << roots[i] << endl;
+    }
+    // node *root = create_tree();
+    // cout << " root: " << root << endl;
+    // cout << "Total:  " << counter2 << endl;
+    int match = 0, disMatch = 0;
+
+    int co[5];
+    for (int i = START; i < MAX_DATA; i++)
+    {
+        int a = 0, r = 0;
+        for (int k = 0; k < 5; k++)
+        {
+            if (testing(roots[k], values[i]))
+                a++;
+            else
+                r++;
+        }
+        co[a]++;
+        if (a > r)
             match++;
         else
             disMatch++;
+
+        tree_index++;
     }
+
+    cout << co[0] << " " << co[1] << " " << co[2] << " " << co[3] << " " << co[4] << endl;
     cout << match << " " << disMatch << endl;
     double probability = (double)match / (double)(match + disMatch);
     cout << "Probability is: " << probability * 100 << endl;
